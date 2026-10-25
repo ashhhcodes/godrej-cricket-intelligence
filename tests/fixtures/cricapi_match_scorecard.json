@@ -1,0 +1,153 @@
+{
+  "apikey": "[MASKED_KEY]",
+  "status": "success",
+  "data": {
+    "id": "cricapi-match-t20-001",
+    "name": "India vs Australia, 1st T20I",
+    "matchType": "t20",
+    "status": "Australia 182/4 (18.3 ov)",
+    "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "date": "2026-10-25",
+    "dateTimeGMT": "2026-10-25T13:30:00",
+    "teams": ["India", "Australia"],
+    "tossWinner": "India",
+    "tossChoice": "bowl",
+    "matchWinner": null,
+    "score": [
+      {
+        "r": 182,
+        "w": 4,
+        "o": 18.3,
+        "inning": "Australia Inning 1"
+      }
+    ],
+    "scorecard": [
+      {
+        "inning": "Australia Inning 1",
+        "batting": [
+          {
+            "batsman": "Travis Head",
+            "pid": "pid-aus-head",
+            "dismissal-info": "b Axar Patel",
+            "r": 35,
+            "b": 18,
+            "4s": 4,
+            "6s": 2,
+            "sr": 194.44
+          },
+          {
+            "batsman": "Mitchell Marsh",
+            "pid": "pid-aus-marsh",
+            "dismissal-info": "c Rohit Sharma b Bumrah",
+            "r": 52,
+            "b": 32,
+            "4s": 5,
+            "6s": 3,
+            "sr": 162.50
+          },
+          {
+            "batsman": "Glenn Maxwell",
+            "pid": "pid-aus-maxwell",
+            "dismissal-info": "c Jadeja b Shami",
+            "r": 0,
+            "b": 3,
+            "4s": 0,
+            "6s": 0,
+            "sr": 0.00
+          },
+          {
+            "batsman": "Tim David",
+            "pid": "pid-aus-david",
+            "dismissal-info": "not out",
+            "r": 48,
+            "b": 24,
+            "4s": 3,
+            "6s": 4,
+            "sr": 200.00
+          },
+          {
+            "batsman": "Matthew Wade",
+            "pid": "pid-aus-wade",
+            "dismissal-info": "not out",
+            "r": 37,
+            "b": 21,
+            "4s": 4,
+            "6s": 1,
+            "sr": 176.19
+          },
+          {
+            "batsman": "Pat Cummins",
+            "pid": "pid-aus-cummins",
+            "dismissal-info": null,
+            "r": 0,
+            "b": 0,
+            "4s": 0,
+            "6s": 0,
+            "sr": null
+          }
+        ],
+        "bowling": [
+          {
+            "bowler": "Jasprit Bumrah",
+            "pid": "pid-ind-bumrah",
+            "o": 3.3,
+            "m": 0,
+            "r": 32,
+            "w": 1,
+            "eco": 9.14
+          },
+          {
+            "bowler": "Mohammed Shami",
+            "pid": "pid-ind-shami",
+            "o": 4.0,
+            "m": 0,
+            "r": 44,
+            "w": 1,
+            "eco": 11.00
+          },
+          {
+            "bowler": "Axar Patel",
+            "pid": "pid-ind-axar",
+            "o": 4.0,
+            "m": 1,
+            "r": 28,
+            "w": 2,
+            "eco": 7.00
+          },
+          {
+            "bowler": "Ravindra Jadeja",
+            "pid": "pid-ind-jadeja",
+            "o": 4.0,
+            "m": 0,
+            "r": 38,
+            "w": 0,
+            "eco": 9.50
+          },
+          {
+            "bowler": "Hardik Pandya",
+            "pid": "pid-ind-pandya",
+            "o": 3.0,
+            "m": 0,
+            "r": 30,
+            "w": 0,
+            "eco": 10.00
+          }
+        ],
+        "extras": {
+          "r": 10,
+          "b": 1,
+          "lb": 2,
+          "w": 6,
+          "nb": 1
+        }
+      }
+    ]
+  },
+  "info": {
+    "hitsToday": 16,
+    "hitsLimit": 100,
+    "credits": 84,
+    "server": 2,
+    "queryTime": 0.091
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "apikey": "[MASKED_KEY]",
+  "status": "success",
+  "data": {
+    "id": "cricapi-match-completed-003",
+    "name": "India vs England, 3rd ODI",
+    "matchType": "odi",
+    "status": "India won by 5 wickets",
+    "venue": "Old Trafford, Manchester",
+    "date": "2026-09-18",
+    "dateTimeGMT": "2026-09-18T10:00:00",
+    "teams": ["England", "India"],
+    "tossWinner": "India",
+    "tossChoice": "bowl",
+    "matchWinner": "India",
+    "score": [
+      {
+        "r": 259,
+        "w": 10,
+        "o": 45.3,
+        "inning": "England Inning 1"
+      },
+      {
+        "r": 261,
+        "w": 5,
+        "o": 42.1,
+        "inning": "India Inning 1"
+      }
+    ]
+  },
+  "info": {
+    "hitsToday": 20,
+    "hitsLimit": 100,
+    "credits": 80
+  }
+}

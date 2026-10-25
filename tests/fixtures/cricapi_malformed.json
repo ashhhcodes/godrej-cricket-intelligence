@@ -1,0 +1,48 @@
+{
+  "apikey": "[MASKED_KEY]",
+  "status": "success",
+  "data": {
+    "id": "cricapi-malformed-005",
+    "name": "Broken Payload Match",
+    "matchType": null,
+    "status": null,
+    "venue": null,
+    "date": "invalid-date-format",
+    "dateTimeGMT": "invalid-timestamp",
+    "teams": ["Team Only"],
+    "score": "invalid_score_array_is_string",
+    "scorecard": [
+      {
+        "inning": null,
+        "batting": [
+          {
+            "batsman": null,
+            "pid": null,
+            "r": "not_an_int",
+            "b": null,
+            "4s": null,
+            "6s": null,
+            "sr": "invalid_sr"
+          }
+        ],
+        "bowling": [
+          {
+            "bowler": null,
+            "pid": null,
+            "o": "bad_overs",
+            "m": null,
+            "r": null,
+            "w": null,
+            "eco": "invalid_eco"
+          }
+        ],
+        "extras": null
+      }
+    ]
+  },
+  "info": {
+    "hitsToday": "bad_int",
+    "hitsLimit": null,
+    "credits": null
+  }
+}

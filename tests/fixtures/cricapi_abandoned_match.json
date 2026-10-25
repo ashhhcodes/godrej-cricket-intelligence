@@ -1,0 +1,23 @@
+{
+  "apikey": "[MASKED_KEY]",
+  "status": "success",
+  "data": {
+    "id": "cricapi-match-abandoned-004",
+    "name": "South Africa vs New Zealand, 2nd T20I",
+    "matchType": "t20",
+    "status": "Match abandoned without a ball bowled - Rain",
+    "venue": "Kingsmead, Durban",
+    "date": "2026-10-10",
+    "dateTimeGMT": "2026-10-10T16:00:00",
+    "teams": ["South Africa", "New Zealand"],
+    "tossWinner": null,
+    "tossChoice": null,
+    "matchWinner": null,
+    "score": []
+  },
+  "info": {
+    "hitsToday": 21,
+    "hitsLimit": 100,
+    "credits": 79
+  }
+}

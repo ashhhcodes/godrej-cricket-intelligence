@@ -1,0 +1,56 @@
+{
+  "apikey": "[MASKED_KEY]",
+  "status": "success",
+  "data": [
+    {
+      "id": "cricapi-match-t20-001",
+      "name": "India vs Australia, 1st T20I",
+      "matchType": "t20",
+      "status": "India opt to bowl",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T13:30:00",
+      "teams": ["India", "Australia"],
+      "teamInfo": [
+        {"name": "India", "shortname": "IND"},
+        {"name": "Australia", "shortname": "AUS"}
+      ],
+      "score": [
+        {
+          "r": 182,
+          "w": 4,
+          "o": 18.3,
+          "inning": "Australia Inning 1"
+        }
+      ],
+      "series_id": "series-ind-aus-2026",
+      "fantasyEnabled": true,
+      "hasSquad": true
+    },
+    {
+      "id": "cricapi-match-ipl-002",
+      "name": "Chennai Super Kings vs Mumbai Indians, Match 1",
+      "matchType": "t20",
+      "status": "Match starts at 19:30 IST",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2026-10-26",
+      "dateTimeGMT": "2026-10-26T14:00:00",
+      "teams": ["Chennai Super Kings", "Mumbai Indians"],
+      "teamInfo": [
+        {"name": "Chennai Super Kings", "shortname": "CSK"},
+        {"name": "Mumbai Indians", "shortname": "MI"}
+      ],
+      "score": [],
+      "series_id": "series-ipl-2026",
+      "fantasyEnabled": true,
+      "hasSquad": true
+    }
+  ],
+  "info": {
+    "hitsToday": 14,
+    "hitsLimit": 100,
+    "credits": 86,
+    "server": 2,
+    "queryTime": 0.082
+  }
+}
