@@ -1,0 +1,99 @@
+{
+  "name": "Godrej Cricket Intelligence Theme",
+  "dataColors": [
+    "#1E5631",
+    "#D97706",
+    "#0F172A",
+    "#C53030",
+    "#2563EB",
+    "#475569",
+    "#059669",
+    "#7C3AED"
+  ],
+  "background": "#11161B",
+  "foreground": "#F8FAFC",
+  "tableAccent": "#1E5631",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "outspacePane": [
+          {
+            "backgroundColor": { "solid": { "color": "#11161B" } },
+            "foregroundColor": { "solid": { "color": "#F8FAFC" } }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#11161B" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 28,
+            "color": { "solid": { "color": "#F8FAFC" } }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "color": { "solid": { "color": "#94A3B8" } }
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#1A2129" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#2D3748" } },
+            "radius": 4
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "gridVertical": true,
+            "gridVerticalColor": { "solid": { "color": "#2D3748" } },
+            "gridHorizontal": true,
+            "gridHorizontalColor": { "solid": { "color": "#2D3748" } }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": { "solid": { "color": "#94A3B8" } },
+            "backColor": { "solid": { "color": "#161D24" } }
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 9.5,
+            "fontColorPrimary": { "solid": { "color": "#F8FAFC" } },
+            "backColorPrimary": { "solid": { "color": "#1A2129" } },
+            "fontColorSecondary": { "solid": { "color": "#F8FAFC" } },
+            "backColorSecondary": { "solid": { "color": "#161D24" } }
+          }
+        ]
+      }
+    }
+  }
+}
