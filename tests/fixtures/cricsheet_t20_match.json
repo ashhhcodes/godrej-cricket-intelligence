@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2023-05-30",
+    "revision": 1,
+    "source": "Cricsheet (https://cricsheet.org)",
+    "license": "Open Data Commons Attribution License (ODC-By) v1.0",
+    "attribution": "Data provided by Cricsheet.org under ODC-By v1.0"
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Ahmedabad",
+    "dates": ["2023-05-29"],
+    "event": {
+      "name": "Indian Premier League",
+      "match_number": 74,
+      "stage": "Final"
+    },
+    "match_type": "T20",
+    "gender": "male",
+    "teams": ["Gujarat Titans", "Chennai Super Kings"],
+    "toss": {
+      "winner": "Chennai Super Kings",
+      "decision": "field"
+    },
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "outcome": {
+      "winner": "Chennai Super Kings",
+      "by": {
+        "wickets": 5
+      },
+      "result": "DLS method"
+    }
+  },
+  "innings": [
+    {
+      "team": "Gujarat Titans",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "WP Saha",
+              "bowler": "DL Chahar",
+              "non_striker": "Shubman Gill",
+              "runs": {"batter": 0, "extras": 0, "total": 0}
+            },
+            {
+              "batter": "WP Saha",
+              "bowler": "DL Chahar",
+              "non_striker": "Shubman Gill",
+              "runs": {"batter": 4, "extras": 0, "total": 4}
+            },
+            {
+              "batter": "WP Saha",
+              "bowler": "DL Chahar",
+              "non_striker": "Shubman Gill",
+              "runs": {"batter": 0, "extras": 0, "total": 0}
+            },
+            {
+              "batter": "WP Saha",
+              "bowler": "DL Chahar",
+              "non_striker": "Shubman Gill",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            },
+            {
+              "batter": "Shubman Gill",
+              "bowler": "DL Chahar",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 2, "extras": 0, "total": 2}
+            },
+            {
+              "batter": "Shubman Gill",
+              "bowler": "DL Chahar",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "Shubman Gill",
+              "bowler": "TU Deshpande",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 4, "extras": 0, "total": 4}
+            },
+            {
+              "batter": "Shubman Gill",
+              "bowler": "TU Deshpande",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 0, "extras": 0, "total": 0}
+            },
+            {
+              "batter": "Shubman Gill",
+              "bowler": "TU Deshpande",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 4, "extras": 0, "total": 4}
+            },
+            {
+              "batter": "Shubman Gill",
+              "bowler": "TU Deshpande",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            },
+            {
+              "batter": "WP Saha",
+              "bowler": "TU Deshpande",
+              "non_striker": "Shubman Gill",
+              "runs": {"batter": 0, "extras": 1, "total": 1},
+              "extras": {"wides": 1}
+            },
+            {
+              "batter": "WP Saha",
+              "bowler": "TU Deshpande",
+              "non_striker": "Shubman Gill",
+              "runs": {"batter": 0, "extras": 0, "total": 0}
+            },
+            {
+              "batter": "WP Saha",
+              "bowler": "TU Deshpande",
+              "non_striker": "Shubman Gill",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "WP Saha",
+              "bowler": "M Pathirana",
+              "non_striker": "Shubman Gill",
+              "runs": {"batter": 4, "extras": 0, "total": 4}
+            },
+            {
+              "batter": "WP Saha",
+              "bowler": "M Pathirana",
+              "non_striker": "Shubman Gill",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            },
+            {
+              "batter": "Shubman Gill",
+              "bowler": "M Pathirana",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 6, "extras": 0, "total": 6}
+            },
+            {
+              "batter": "Shubman Gill",
+              "bowler": "M Pathirana",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 0, "extras": 0, "total": 0}
+            },
+            {
+              "batter": "Shubman Gill",
+              "bowler": "M Pathirana",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 0, "extras": 0, "total": 0},
+              "wickets": [
+                {
+                  "kind": "stumped",
+                  "player_out": "Shubman Gill",
+                  "fielders": [{"name": "MS Dhoni"}]
+                }
+              ]
+            },
+            {
+              "batter": "B Sai Sudharsan",
+              "bowler": "M Pathirana",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "B Sai Sudharsan",
+              "bowler": "RA Jadeja",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            },
+            {
+              "batter": "WP Saha",
+              "bowler": "RA Jadeja",
+              "non_striker": "B Sai Sudharsan",
+              "runs": {"batter": 6, "extras": 0, "total": 6}
+            },
+            {
+              "batter": "WP Saha",
+              "bowler": "RA Jadeja",
+              "non_striker": "B Sai Sudharsan",
+              "runs": {"batter": 0, "extras": 0, "total": 0}
+            },
+            {
+              "batter": "WP Saha",
+              "bowler": "RA Jadeja",
+              "non_striker": "B Sai Sudharsan",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            },
+            {
+              "batter": "B Sai Sudharsan",
+              "bowler": "RA Jadeja",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 4, "extras": 0, "total": 4}
+            },
+            {
+              "batter": "B Sai Sudharsan",
+              "bowler": "RA Jadeja",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "B Sai Sudharsan",
+              "bowler": "M Theekshana",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 4, "extras": 0, "total": 4}
+            },
+            {
+              "batter": "B Sai Sudharsan",
+              "bowler": "M Theekshana",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 6, "extras": 0, "total": 6}
+            },
+            {
+              "batter": "B Sai Sudharsan",
+              "bowler": "M Theekshana",
+              "non_striker": "WP Saha",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            },
+            {
+              "batter": "WP Saha",
+              "bowler": "M Theekshana",
+              "non_striker": "B Sai Sudharsan",
+              "runs": {"batter": 0, "extras": 0, "total": 0},
+              "wickets": [
+                {
+                  "kind": "caught",
+                  "player_out": "WP Saha",
+                  "fielders": [{"name": "MS Dhoni"}]
+                }
+              ]
+            },
+            {
+              "batter": "HH Pandya",
+              "bowler": "M Theekshana",
+              "non_striker": "B Sai Sudharsan",
+              "runs": {"batter": 0, "extras": 0, "total": 0}
+            },
+            {
+              "batter": "HH Pandya",
+              "bowler": "M Theekshana",
+              "non_striker": "B Sai Sudharsan",
+              "runs": {"batter": 2, "extras": 0, "total": 2}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "team": "Chennai Super Kings",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "RD Gaikwad",
+              "bowler": "Mohammed Shami",
+              "non_striker": "DP Conway",
+              "runs": {"batter": 4, "extras": 0, "total": 4}
+            },
+            {
+              "batter": "RD Gaikwad",
+              "bowler": "Mohammed Shami",
+              "non_striker": "DP Conway",
+              "runs": {"batter": 0, "extras": 0, "total": 0}
+            },
+            {
+              "batter": "RD Gaikwad",
+              "bowler": "Mohammed Shami",
+              "non_striker": "DP Conway",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            },
+            {
+              "batter": "DP Conway",
+              "bowler": "Mohammed Shami",
+              "non_striker": "RD Gaikwad",
+              "runs": {"batter": 4, "extras": 0, "total": 4}
+            },
+            {
+              "batter": "DP Conway",
+              "bowler": "Mohammed Shami",
+              "non_striker": "RD Gaikwad",
+              "runs": {"batter": 0, "extras": 0, "total": 0}
+            },
+            {
+              "batter": "DP Conway",
+              "bowler": "Mohammed Shami",
+              "non_striker": "RD Gaikwad",
+              "runs": {"batter": 6, "extras": 0, "total": 6}
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "RD Gaikwad",
+              "bowler": "Rashid Khan",
+              "non_striker": "DP Conway",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            },
+            {
+              "batter": "DP Conway",
+              "bowler": "Rashid Khan",
+              "non_striker": "RD Gaikwad",
+              "runs": {"batter": 4, "extras": 0, "total": 4}
+            },
+            {
+              "batter": "DP Conway",
+              "bowler": "Rashid Khan",
+              "non_striker": "RD Gaikwad",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            },
+            {
+              "batter": "RD Gaikwad",
+              "bowler": "Rashid Khan",
+              "non_striker": "DP Conway",
+              "runs": {"batter": 0, "extras": 0, "total": 0},
+              "wickets": [
+                {
+                  "kind": "caught",
+                  "player_out": "RD Gaikwad",
+                  "fielders": [{"name": "Rashid Khan"}]
+                }
+              ]
+            },
+            {
+              "batter": "S Dube",
+              "bowler": "Rashid Khan",
+              "non_striker": "DP Conway",
+              "runs": {"batter": 6, "extras": 0, "total": 6}
+            },
+            {
+              "batter": "S Dube",
+              "bowler": "Rashid Khan",
+              "non_striker": "DP Conway",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "S Dube",
+              "bowler": "MM Sharma",
+              "non_striker": "DP Conway",
+              "runs": {"batter": 6, "extras": 0, "total": 6}
+            },
+            {
+              "batter": "S Dube",
+              "bowler": "MM Sharma",
+              "non_striker": "DP Conway",
+              "runs": {"batter": 1, "extras": 0, "total": 1}
+            },
+            {
+              "batter": "RA Jadeja",
+              "bowler": "MM Sharma",
+              "non_striker": "S Dube",
+              "runs": {"batter": 6, "extras": 0, "total": 6}
+            },
+            {
+              "batter": "RA Jadeja",
+              "bowler": "MM Sharma",
+              "non_striker": "S Dube",
+              "runs": {"batter": 4, "extras": 0, "total": 4}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
