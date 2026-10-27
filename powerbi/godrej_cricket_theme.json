@@ -1,25 +1,40 @@
 {
-  "name": "Godrej Cricket Intelligence Theme",
+  "name": "Team Elite Crew - Cricket Intelligence Theme",
   "dataColors": [
-    "#1E5631",
-    "#D97706",
-    "#0F172A",
-    "#C53030",
-    "#2563EB",
-    "#475569",
-    "#059669",
-    "#7C3AED"
+    "#00E676",
+    "#00E5FF",
+    "#FFD600",
+    "#FF3D00",
+    "#2979FF",
+    "#B388FF",
+    "#00C853",
+    "#FF6D00"
   ],
-  "background": "#11161B",
-  "foreground": "#F8FAFC",
-  "tableAccent": "#1E5631",
+  "background": "#06120E",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#00E676",
   "visualStyles": {
     "*": {
       "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
         "outspacePane": [
           {
-            "backgroundColor": { "solid": { "color": "#11161B" } },
-            "foregroundColor": { "solid": { "color": "#F8FAFC" } }
+            "backgroundColor": { "solid": { "color": "#06120E" } },
+            "foregroundColor": { "solid": { "color": "#FFFFFF" } }
           }
         ]
       }
@@ -28,8 +43,8 @@
       "*": {
         "background": [
           {
-            "color": { "solid": { "color": "#11161B" } },
-            "transparency": 0
+            "color": { "solid": { "color": "#06120E" } },
+            "transparency": 100
           }
         ]
       }
@@ -39,28 +54,20 @@
         "labels": [
           {
             "fontFamily": "Segoe UI",
-            "fontSize": 28,
-            "color": { "solid": { "color": "#F8FAFC" } }
+            "fontSize": 24,
+            "color": { "solid": { "color": "#FFFFFF" } }
           }
         ],
         "categoryLabels": [
           {
             "fontFamily": "Segoe UI",
-            "fontSize": 10,
-            "color": { "solid": { "color": "#94A3B8" } }
+            "fontSize": 9.5,
+            "color": { "solid": { "color": "#80B89C" } }
           }
         ],
         "background": [
           {
-            "color": { "solid": { "color": "#1A2129" } },
-            "transparency": 0
-          }
-        ],
-        "border": [
-          {
-            "show": true,
-            "color": { "solid": { "color": "#2D3748" } },
-            "radius": 4
+            "show": false
           }
         ]
       }
@@ -69,28 +76,66 @@
       "*": {
         "grid": [
           {
-            "gridVertical": true,
-            "gridVerticalColor": { "solid": { "color": "#2D3748" } },
+            "gridVertical": false,
             "gridHorizontal": true,
-            "gridHorizontalColor": { "solid": { "color": "#2D3748" } }
+            "gridHorizontalColor": { "solid": { "color": "#0A3A28" } }
           }
         ],
         "columnHeaders": [
           {
             "fontFamily": "Segoe UI",
             "fontSize": 10,
-            "fontColor": { "solid": { "color": "#94A3B8" } },
-            "backColor": { "solid": { "color": "#161D24" } }
+            "fontColor": { "solid": { "color": "#00E676" } },
+            "backColor": { "solid": { "color": "#081F15" } }
           }
         ],
         "values": [
           {
             "fontFamily": "Segoe UI",
             "fontSize": 9.5,
-            "fontColorPrimary": { "solid": { "color": "#F8FAFC" } },
-            "backColorPrimary": { "solid": { "color": "#1A2129" } },
-            "fontColorSecondary": { "solid": { "color": "#F8FAFC" } },
-            "backColorSecondary": { "solid": { "color": "#161D24" } }
+            "fontColorPrimary": { "solid": { "color": "#FFFFFF" } },
+            "backColorPrimary": { "solid": { "color": "#0A2218" } },
+            "fontColorSecondary": { "solid": { "color": "#FFFFFF" } },
+            "backColorSecondary": { "solid": { "color": "#061811" } }
+          }
+        ],
+        "background": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "color": { "solid": { "color": "#80B89C" } }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "labelColor": { "solid": { "color": "#80B89C" } }
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "labelColor": { "solid": { "color": "#80B89C" } },
+            "gridlineColor": { "solid": { "color": "#0A3A28" } }
           }
         ]
       }
