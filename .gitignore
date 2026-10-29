@@ -56,5 +56,4 @@ Thumbs.db
 .env.*
 !.env.example
 
-# Power BI report — temporarily excluded until reviewed
-Godrej_Cricket_Intelligence.pbix
+
