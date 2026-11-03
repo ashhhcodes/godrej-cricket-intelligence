@@ -1,0 +1,3497 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Contents 10 0 R
+   /Resources <<
+       /Font <<
+           /F1 17 0 R
+           /F2 18 0 R
+           /F3 19 0 R
+           /F4 20 0 R
+       >>
+   >>
+>>
+endobj
+4 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Contents 11 0 R
+   /Resources <<
+       /Font <<
+           /F1 17 0 R
+           /F2 18 0 R
+           /F3 19 0 R
+           /F4 20 0 R
+       >>
+   >>
+>>
+endobj
+5 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Contents 12 0 R
+   /Resources <<
+       /Font <<
+           /F1 17 0 R
+           /F2 18 0 R
+           /F3 19 0 R
+           /F4 20 0 R
+       >>
+   >>
+>>
+endobj
+6 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Contents 13 0 R
+   /Resources <<
+       /Font <<
+           /F1 17 0 R
+           /F2 18 0 R
+           /F3 19 0 R
+           /F4 20 0 R
+       >>
+   >>
+>>
+endobj
+7 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Contents 14 0 R
+   /Resources <<
+       /Font <<
+           /F1 17 0 R
+           /F2 18 0 R
+           /F3 19 0 R
+           /F4 20 0 R
+       >>
+   >>
+>>
+endobj
+8 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Contents 15 0 R
+   /Resources <<
+       /Font <<
+           /F1 17 0 R
+           /F2 18 0 R
+           /F3 19 0 R
+           /F4 20 0 R
+       >>
+   >>
+>>
+endobj
+9 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Contents 16 0 R
+   /Resources <<
+       /Font <<
+           /F1 17 0 R
+           /F2 18 0 R
+           /F3 19 0 R
+           /F4 20 0 R
+       >>
+   >>
+>>
+endobj
+10 0 obj
+<< /Length 6246 >>
+stream
+
+0.030 0.070 0.050 rg 0.0 0.0 612.0 792.0 re f
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 755.0 552.0 22.0 re B
+
+0.000 0.850 0.450 rg 30.0 755.0 4.0 22.0 re f
+
+BT
+/F2 8.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 42.0 762.0 Tm
+(TEAM ELITE CREW  |  GODREJ DATA ANALYSIS TRAINING PROGRAM) Tj
+ET
+
+BT
+/F2 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 420.0 762.0 Tm
+(POWER BI DASHBOARD BLUEPRINT) Tj
+ET
+
+0.080 0.250 0.170 rg 30.0 25.0 552.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 15.0 Tm
+(Godrej Cricket Intelligence -- Real-Time Analytics Platform) Tj
+ET
+
+BT
+/F2 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 520.0 15.0 Tm
+(Page 1 of 7) Tj
+ET
+
+0.000 0.850 0.450 RG 1.5 w 0.060 0.120 0.090 rg 30.0 630.0 552.0 105.0 re B
+
+BT
+/F2 22 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 705.0 Tm
+(GODREJ CRICKET INTELLIGENCE) Tj
+ET
+
+BT
+/F2 12 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 45.0 685.0 Tm
+(Power BI Desktop Dashboard Architecture & Visual Specification Guide) Tj
+ET
+
+BT
+/F1 9.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 45.0 665.0 Tm
+(Team Elite Crew  |  College Project Implementation  |  DirectQuery Architecture) Tj
+ET
+
+BT
+/F1 9 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 645.0 Tm
+(Target Database: PostgreSQL 16 \(godrej_cricket_db\)  |  Refresh Cadence: 30s Real-Time) Tj
+ET
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 480.0 552.0 135.0 re B
+
+BT
+/F2 11 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 45.0 595.0 Tm
+(PROJECT OVERVIEW & CORE ARCHITECTURE) Tj
+ET
+
+BT
+/F2 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 575.0 Tm
+(1. Decoupled 3-Tier Refresh:) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 190.0 575.0 Tm
+(Solves the 100-hit/day API quota limit by isolating upstream polling from Power BI render refresh.) Tj
+ET
+
+BT
+/F2 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 557.0 Tm
+(2. Real-Time DirectQuery:) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 190.0 557.0 Tm
+(Power BI Desktop queries local PostgreSQL views directly every 30s at ZERO external API cost.) Tj
+ET
+
+BT
+/F2 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 539.0 Tm
+(3. Strict Cricket Domain Math:) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 190.0 539.0 Tm
+(Accurately converts overs notation \(19.5 -> 119 balls\) to calculate true decimal overs \(19.833\).) Tj
+ET
+
+BT
+/F2 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 521.0 Tm
+(4. Strict NULL vs. Zero Semantics:) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 190.0 521.0 Tm
+(Batters with 0 balls get NULL strike rate \(not duck\). Bowlers with 0 overs get NULL economy.) Tj
+ET
+
+BT
+/F2 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 503.0 Tm
+(5. Provenance Transparency:) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 190.0 503.0 Tm
+(All simulated replay data is tagged is_simulated=TRUE and renders an amber demo banner.) Tj
+ET
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 315.0 552.0 150.0 re B
+
+BT
+/F2 11 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 45.0 445.0 Tm
+(QUICKSTART FOR TEAMMATE \(HOW TO APPLY THIS UI IN 3 STEPS\)) Tj
+ET
+
+BT
+/F2 8.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 425.0 Tm
+(Step 1: Import Theme File) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 190.0 425.0 Tm
+(In Power BI -> View tab -> Themes dropdown -> 'Browse for themes...') Tj
+ET
+
+BT
+/F1 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 190.0 407.0 Tm
+(Select 'powerbi/godrej_cricket_theme.json' \(makes all cards & tables transparent!\).) Tj
+ET
+
+BT
+/F2 8.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 389.0 Tm
+(Step 2: Set Canvas Background) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 190.0 389.0 Tm
+(Format page \(paintbrush\) -> Canvas background -> Browse image from 'powerbi/assets/'.) Tj
+ET
+
+BT
+/F1 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 190.0 371.0 Tm
+(IMPORTANT: Set Image fit = 'Fit' and Transparency = 0% \(Power BI defaults to 100%!\).) Tj
+ET
+
+BT
+/F2 8.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 353.0 Tm
+(Step 3: Place Visuals in Boxes) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 190.0 353.0 Tm
+(Follow the ASCII wireframes in this document to drop cards, tables & charts directly) Tj
+ET
+
+BT
+/F1 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 190.0 335.0 Tm
+(inside the pre-drawn glowing green glass containers. Everything aligns automatically!) Tj
+ET
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 60.0 552.0 240.0 re B
+
+BT
+/F2 11 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 45.0 280.0 Tm
+(5-PAGE DASHBOARD SITEMAP & TEMPLATE MATRIX) Tj
+ET
+
+0.080 0.250 0.170 RG 0.5 w 0.040 0.090 0.070 rg 45.0 235.0 522.0 32.0 re B
+
+BT
+/F2 9 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 55.0 250.0 Tm
+(Page 1: Home / Welcome Portal) Tj
+ET
+
+BT
+/F3 8 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 230.0 250.0 Tm
+(Asset: 01_Home_Background.png) Tj
+ET
+
+BT
+/F1 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 55.0 239.0 Tm
+(Landing portal with 4 large interactive navigation tiles.) Tj
+ET
+
+0.080 0.250 0.170 RG 0.5 w 0.040 0.090 0.070 rg 45.0 195.0 522.0 32.0 re B
+
+BT
+/F2 9 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 55.0 210.0 Tm
+(Page 2: Live Match Center) Tj
+ET
+
+BT
+/F3 8 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 230.0 210.0 Tm
+(Asset: 02_Live_Match_Background.png) Tj
+ET
+
+BT
+/F1 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 55.0 199.0 Tm
+(Real-time scoreboard with live score, CRR, RRR, scorecards & worm.) Tj
+ET
+
+0.080 0.250 0.170 RG 0.5 w 0.040 0.090 0.070 rg 45.0 155.0 522.0 32.0 re B
+
+BT
+/F2 9 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 55.0 170.0 Tm
+(Page 3: Batting Analytics) Tj
+ET
+
+BT
+/F3 8 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 230.0 170.0 Tm
+(Asset: 03_Batting_Background.png) Tj
+ET
+
+BT
+/F1 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 55.0 159.0 Tm
+(6 Batting KPI cards, Boundary % vs SR scatter plot, dismissal breakdown.) Tj
+ET
+
+0.080 0.250 0.170 RG 0.5 w 0.040 0.090 0.070 rg 45.0 115.0 522.0 32.0 re B
+
+BT
+/F2 9 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 55.0 130.0 Tm
+(Page 4: Bowling Analytics) Tj
+ET
+
+BT
+/F3 8 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 230.0 130.0 Tm
+(Asset: 04_Bowling_Background.png) Tj
+ET
+
+BT
+/F1 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 55.0 119.0 Tm
+(6 Bowling KPI cards, Economy vs Average scatter, dot ball pressure.) Tj
+ET
+
+0.080 0.250 0.170 RG 0.5 w 0.040 0.090 0.070 rg 45.0 75.0 522.0 32.0 re B
+
+BT
+/F2 9 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 55.0 90.0 Tm
+(Page 5: Innings Progression) Tj
+ET
+
+BT
+/F3 8 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 230.0 90.0 Tm
+(Asset: 05_Innings_Background.png) Tj
+ET
+
+BT
+/F1 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 55.0 79.0 Tm
+(Head-to-head innings comparison, cumulative worm chase, extras tally.) Tj
+ET
+
+endstream
+endobj
+11 0 obj
+<< /Length 7636 >>
+stream
+
+0.030 0.070 0.050 rg 0.0 0.0 612.0 792.0 re f
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 755.0 552.0 22.0 re B
+
+0.000 0.850 0.450 rg 30.0 755.0 4.0 22.0 re f
+
+BT
+/F2 8.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 42.0 762.0 Tm
+(TEAM ELITE CREW  |  GODREJ DATA ANALYSIS TRAINING PROGRAM) Tj
+ET
+
+BT
+/F2 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 420.0 762.0 Tm
+(POWER BI DASHBOARD BLUEPRINT) Tj
+ET
+
+0.080 0.250 0.170 rg 30.0 25.0 552.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 15.0 Tm
+(Godrej Cricket Intelligence -- Real-Time Analytics Platform) Tj
+ET
+
+BT
+/F2 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 520.0 15.0 Tm
+(Page 2 of 7) Tj
+ET
+
+BT
+/F2 14 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 30.0 735.0 Tm
+(PAGE 1: HOME / WELCOME PORTAL) Tj
+ET
+
+BT
+/F1 9 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 720.0 Tm
+(Canvas Background: powerbi/assets/01_Home_Background.png  |  Role: Entry Portal & Page Routing) Tj
+ET
+
+0.000 0.850 0.450 RG 1 w 0.040 0.090 0.070 rg 30.0 500.0 552.0 205.0 re B
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 690.0 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 679.5 Tm
+(|  [||| TEAM ELITE CREW]                         [Home*] [Live Match]  [Batting]  [Bowling]  [Innings]  |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 669.0 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 658.5 Tm
+(|                                                                                                    |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 648.0 Tm
+(|   CRICKET ANALYTICS DASHBOARD                 +------------------------+  +--------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 637.5 Tm
+(|                                               | \(\(o\)\) LIVE MATCH       |  |  #  BATTING        |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 627.0 Tm
+(|   TEAM ELITE CREW                             |       CENTER        -> |  |    ANALYTICS    -> |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 616.5 Tm
+(|   -------------------------                   |                        |  |                    |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 606.0 Tm
+(|   * Live match analysis                       | [Transparent Button]   |  | [Transparent Button]   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 595.5 Tm
+(|   * Player performance                        +------------------------+  +--------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 585.0 Tm
+(|   * Tournament insights                                                                            |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 574.5 Tm
+(|   * Real-time data                            +------------------------+  +--------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 564.0 Tm
+(|                                               |  o  BOWLING            |  |  T  TOURNAMENT     |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 553.5 Tm
+(|   [Pre-printed text on background]            |    ANALYTICS        -> |  |    INSIGHTS     -> |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 543.0 Tm
+(|                                               |                        |  |                    |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 532.5 Tm
+(|                                               | [Transparent Button]   |  | [Transparent Button]   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 522.0 Tm
+(|                                               +------------------------+  +--------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 511.5 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 160.0 552.0 325.0 re B
+
+BT
+/F2 11 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 45.0 465.0 Tm
+(CONTAINER MAPPINGS & ACTION CONFIGURATION) Tj
+ET
+
+BT
+/F2 8 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 440.0 Tm
+(Container Box) Tj
+ET
+
+BT
+/F2 8 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 145.0 440.0 Tm
+(Visual Type in Power BI) Tj
+ET
+
+BT
+/F2 8 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 265.0 440.0 Tm
+(Action / Target Page) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 380.0 440.0 Tm
+(Description & Setup Details) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 435.0 532.0 1.0 re f
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 415.0 Tm
+(Left Graphics Area) Tj
+ET
+
+BT
+/F1 8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 145.0 415.0 Tm
+(None \(Leave blank\)) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 265.0 415.0 Tm
+(N/A) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 380.0 415.0 Tm
+(Text is already pre-printed inside the background PNG image.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 410.0 532.0 1.0 re f
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 390.0 Tm
+(Tile 1: Top-Left) Tj
+ET
+
+BT
+/F1 8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 145.0 390.0 Tm
+(Blank Button \(Transparent\)) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 265.0 390.0 Tm
+(Navigate -> 'Live Match') Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 380.0 390.0 Tm
+(Place over 'LIVE MATCH CENTER'. Set Action: On -> Page Navigation -> Live Match.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 385.0 532.0 1.0 re f
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 365.0 Tm
+(Tile 2: Top-Right) Tj
+ET
+
+BT
+/F1 8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 145.0 365.0 Tm
+(Blank Button \(Transparent\)) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 265.0 365.0 Tm
+(Navigate -> 'Batting') Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 380.0 365.0 Tm
+(Place over 'BATTING ANALYTICS'. Set Action: On -> Page Navigation -> Batting.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 360.0 532.0 1.0 re f
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 340.0 Tm
+(Tile 3: Bottom-Left) Tj
+ET
+
+BT
+/F1 8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 145.0 340.0 Tm
+(Blank Button \(Transparent\)) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 265.0 340.0 Tm
+(Navigate -> 'Bowling') Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 380.0 340.0 Tm
+(Place over 'BOWLING ANALYTICS'. Set Action: On -> Page Navigation -> Bowling.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 335.0 532.0 1.0 re f
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 315.0 Tm
+(Tile 4: Bottom-Right) Tj
+ET
+
+BT
+/F1 8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 145.0 315.0 Tm
+(Blank Button \(Transparent\)) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 265.0 315.0 Tm
+(Navigate -> 'Innings') Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 380.0 315.0 Tm
+(Place over 'TOURNAMENT INSIGHTS'. Set Action: On -> Page Navigation -> Innings.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 310.0 532.0 1.0 re f
+
+0.080 0.250 0.170 RG 1 w 0.040 0.090 0.070 rg 30.0 45.0 552.0 100.0 re B
+
+BT
+/F2 9.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 125.0 Tm
+(HOW PAGE NAVIGATION WORKS IN POWER BI DESKTOP) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 110.0 Tm
+(1. Insert tab -> Buttons -> Blank. Drag the button so it covers the entire tile.) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 95.0 Tm
+(2. Format Button pane -> Button style: set Fill & Border to Off \(100% transparent\).) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 80.0 Tm
+(3. Format Button pane -> Action: toggle to On -> Type: 'Page navigation' -> Destination: Select Page.) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 45.0 65.0 Tm
+(4. In Power BI Desktop, hold Ctrl and Click the button to test page navigation!) Tj
+ET
+
+endstream
+endobj
+12 0 obj
+<< /Length 9222 >>
+stream
+
+0.030 0.070 0.050 rg 0.0 0.0 612.0 792.0 re f
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 755.0 552.0 22.0 re B
+
+0.000 0.850 0.450 rg 30.0 755.0 4.0 22.0 re f
+
+BT
+/F2 8.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 42.0 762.0 Tm
+(TEAM ELITE CREW  |  GODREJ DATA ANALYSIS TRAINING PROGRAM) Tj
+ET
+
+BT
+/F2 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 420.0 762.0 Tm
+(POWER BI DASHBOARD BLUEPRINT) Tj
+ET
+
+0.080 0.250 0.170 rg 30.0 25.0 552.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 15.0 Tm
+(Godrej Cricket Intelligence -- Real-Time Analytics Platform) Tj
+ET
+
+BT
+/F2 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 520.0 15.0 Tm
+(Page 3 of 7) Tj
+ET
+
+BT
+/F2 14 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 30.0 735.0 Tm
+(PAGE 2: LIVE MATCH CENTER) Tj
+ET
+
+BT
+/F1 9 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 720.0 Tm
+(Canvas Background: powerbi/assets/02_Live_Match_Background.png  |  Role: Real-Time Scoreboard \(APR 30s\)) Tj
+ET
+
+0.000 0.850 0.450 RG 1 w 0.040 0.090 0.070 rg 30.0 490.0 552.0 215.0 re B
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 690.0 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 679.5 Tm
+(|  [||| TEAM ELITE CREW]                         [Home]  [Live Match*]  [Batting]  [Bowling]  [Innings]  |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 669.0 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 658.5 Tm
+(|  +------------------------+  +--------------------+  +--------+ +--------+                         |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 648.0 Tm
+(|  | Match Headline         |  | Live Match Banner  |  | Score  | | CRR    |  <-- Top KPI Strip      |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 637.5 Tm
+(|  | \(v_live_match_summary\) |  | \(Provenance Badge\) |  +--------+ +--------+                         |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 627.0 Tm
+(|  +------------------------+  +--------------------+  +--------+ +--------+ +--------+              |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 616.5 Tm
+(|                                                      | Target | | RRR    | | Status |              |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 606.0 Tm
+(|                                                      +--------+ +--------+ +--------+              |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 595.5 Tm
+(|  +---------------------------------------------+  +---------------------------------------------+  |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 585.0 Tm
+(|  | Batting Scorecard Table                     |  | Bowling Scorecard Table                     |  |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 574.5 Tm
+(|  | \(player_name, runs, balls, 4s, 6s, SR, out\) |  | \(player_name, overs, maidens, runs, wkts\)   |  |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 564.0 Tm
+(|  +---------------------------------------------+  +---------------------------------------------+  |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 553.5 Tm
+(|  +---------------------------------------------+  +---------------------------------------------+  |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 543.0 Tm
+(|  | Over-by-Over Worm Line Chart                |  | Innings Summary / Extras Breakdown          |  |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 532.5 Tm
+(|  | \(v_worm_comparison: overs vs runs\)          |  | \(v_match_innings_summary\)                   |  |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 522.0 Tm
+(|  +---------------------------------------------+  +---------------------------------------------+  |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 511.5 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 45.0 552.0 435.0 re B
+
+BT
+/F2 11 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 45.0 465.0 Tm
+(CONTAINER MAPPINGS & DATA SOURCE SPECIFICATION) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 445.0 Tm
+(Container Box) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 140.0 445.0 Tm
+(Visual Type) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 230.0 445.0 Tm
+(Data View / Measure) Tj
+ET
+
+BT
+/F2 7 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 355.0 445.0 Tm
+(Field Mappings & Formatting Rules) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 441.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 426.0 Tm
+(Top-Left Wide Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 426.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 426.0 Tm
+(v_live_match_summary) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 426.0 Tm
+(Field: match_name & venue \(White 14pt bold\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 422.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 407.0 Tm
+(Top-Center Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 407.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 407.0 Tm
+([Data Provenance Banner]) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 407.0 Tm
+(Displays 'DEMO / SIMULATED DATA' in Amber gold.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 403.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 388.0 Tm
+(Score Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 388.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 388.0 Tm
+([Live Score Headline]) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 388.0 Tm
+(Displays e.g. 'Gujarat Titans 57/2 \(5.0 ov\)' in 28pt bold.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 384.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 369.0 Tm
+(CRR Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 369.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 369.0 Tm
+([Current Run Rate]) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 369.0 Tm
+(Field: current_run_rate \(Format: 0.00, Green accent\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 365.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 350.0 Tm
+(Target Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 350.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 350.0 Tm
+([Target Runs]) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 350.0 Tm
+(Field: target_runs \(Blank during 1st innings\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 346.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 331.0 Tm
+(RRR Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 331.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 331.0 Tm
+([Required Run Rate]) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 331.0 Tm
+(Field: required_run_rate \(Blank during 1st innings\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 327.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 312.0 Tm
+(Status Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 312.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 312.0 Tm
+(current_status_summary) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 312.0 Tm
+(Text summary from match state.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 308.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 293.0 Tm
+(Middle-Left Table) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 293.0 Tm
+(Table \(tableEx\)) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 293.0 Tm
+(v_current_batting_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 293.0 Tm
+(Columns: player_name, runs, balls_faced, fours, sixes, strike_rate, dismissal_info.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 289.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 274.0 Tm
+(Middle-Right Table) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 274.0 Tm
+(Table \(tableEx\)) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 274.0 Tm
+(v_current_bowling_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 274.0 Tm
+(Columns: player_name, overs_bowled, maidens, runs_conceded, wickets, economy_rate, dots.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 270.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 255.0 Tm
+(Bottom-Left Chart) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 255.0 Tm
+(Line chart) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 255.0 Tm
+(v_worm_comparison) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 255.0 Tm
+(X-axis: overs  |  Y-axis: runs  |  Legend: batting_team. Shows two chase curves!) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 251.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 236.0 Tm
+(Bottom-Right Chart) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 236.0 Tm
+(Stacked bar) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 236.0 Tm
+(v_match_innings_summary) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 236.0 Tm
+(X-axis: innings_name  |  Y-axis: extras_wides, extras_no_balls, byes, leg_byes.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 232.0 532.0 1.0 re f
+
+endstream
+endobj
+13 0 obj
+<< /Length 9940 >>
+stream
+
+0.030 0.070 0.050 rg 0.0 0.0 612.0 792.0 re f
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 755.0 552.0 22.0 re B
+
+0.000 0.850 0.450 rg 30.0 755.0 4.0 22.0 re f
+
+BT
+/F2 8.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 42.0 762.0 Tm
+(TEAM ELITE CREW  |  GODREJ DATA ANALYSIS TRAINING PROGRAM) Tj
+ET
+
+BT
+/F2 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 420.0 762.0 Tm
+(POWER BI DASHBOARD BLUEPRINT) Tj
+ET
+
+0.080 0.250 0.170 rg 30.0 25.0 552.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 15.0 Tm
+(Godrej Cricket Intelligence -- Real-Time Analytics Platform) Tj
+ET
+
+BT
+/F2 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 520.0 15.0 Tm
+(Page 4 of 7) Tj
+ET
+
+BT
+/F2 14 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 30.0 735.0 Tm
+(PAGE 3: BATTING ANALYTICS) Tj
+ET
+
+BT
+/F1 9 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 720.0 Tm
+(Canvas Background: powerbi/assets/03_Batting_Background.png  |  Role: Strike Rate & Boundary Breakdown) Tj
+ET
+
+0.000 0.850 0.450 RG 1 w 0.040 0.090 0.070 rg 30.0 490.0 552.0 215.0 re B
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 690.0 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 679.5 Tm
+(|  [||| TEAM ELITE CREW]                         [Home]  [Live Match]  [Batting*] [Bowling]  [Innings]  |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 669.0 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 658.5 Tm
+(|  +----------+ +----------+ +----------+ +--------------+ +--------------+ +--------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 648.0 Tm
+(|  | Total    | | Total 4s | | Total 6s | | Boundary %   | | Highest SR   | | Total Dismissals   |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 637.5 Tm
+(|  | Runs     | |          | |          | |              | |              | |                    |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 627.0 Tm
+(|  | [Card]   | | [Card]   | | [Card]   | | [Card]       | | [Card]       | | [Card]             |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 616.5 Tm
+(|  +----------+ +----------+ +----------+ +--------------+ +--------------+ +--------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 606.0 Tm
+(|                                                                                                    |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 595.5 Tm
+(|  +----------------------------------------------+  +-------------------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 585.0 Tm
+(|  | Boundary Run % vs Strike Rate                |  | Modes of Dismissal Breakdown              |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 574.5 Tm
+(|  | \(Scatter Chart\)                              |  | \(Donut Chart\)                             |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 564.0 Tm
+(|  | * X-axis: boundary_run_percentage            |  | * Legend: dismissal_info                  |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 553.5 Tm
+(|  | * Y-axis: strike_rate                         |  | * Values: Count of player_name            |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 543.0 Tm
+(|  | * Values: player_name | Size: runs           |  |                                           |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 532.5 Tm
+(|  +----------------------------------------------+  +-------------------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 522.0 Tm
+(|                                                                                                    |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 511.5 Tm
+(|  +-------------------------+  +-------------------------+  +-----------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 501.0 Tm
+(|  | Top Run Scorers         |  | Boundary Kings \(4s & 6s\)|  | Strike Rate Matrix                |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 490.5 Tm
+(|  | \(Clustered Bar Chart\)   |  | \(Stacked Bar Chart\)     |  | \(Table / Bar Chart\)               |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 480.0 Tm
+(|  +-------------------------+  +-------------------------+  +-----------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 469.5 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 45.0 552.0 435.0 re B
+
+BT
+/F2 11 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 45.0 465.0 Tm
+(CONTAINER MAPPINGS & DATA SPECIFICATION) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 445.0 Tm
+(Container Box) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 140.0 445.0 Tm
+(Visual Type) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 230.0 445.0 Tm
+(Data View / Measure) Tj
+ET
+
+BT
+/F2 7 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 355.0 445.0 Tm
+(Field Mappings & Formatting Rules) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 441.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 426.0 Tm
+(KPI 1: Total Runs) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 426.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 426.0 Tm
+([Total Runs]) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 426.0 Tm
+(Sum of all runs scored off the bat across innings.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 422.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 407.0 Tm
+(KPI 2: Total 4s) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 407.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 407.0 Tm
+(v_current_batting_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 407.0 Tm
+(Field: Sum of fours.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 403.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 388.0 Tm
+(KPI 3: Total 6s) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 388.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 388.0 Tm
+(v_current_batting_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 388.0 Tm
+(Field: Sum of sixes.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 384.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 369.0 Tm
+(KPI 4: Boundary %) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 369.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 369.0 Tm
+([Boundary Run %]) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 369.0 Tm
+(Percentage of total runs scored through boundaries.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 365.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 350.0 Tm
+(KPI 5: Top SR) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 350.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 350.0 Tm
+(v_current_batting_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 350.0 Tm
+(Field: Max of strike_rate \(Filters out 0 balls faced\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 346.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 331.0 Tm
+(KPI 6: Dismissals) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 331.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 331.0 Tm
+(v_current_batting_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 331.0 Tm
+(Field: Count of is_dismissed = TRUE.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 327.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 312.0 Tm
+(Middle-Left Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 312.0 Tm
+(Scatter chart) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 312.0 Tm
+(v_current_batting_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 312.0 Tm
+(X-axis: boundary_run_percentage | Y-axis: strike_rate | Values: player_name | Size: runs.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 308.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 293.0 Tm
+(Middle-Right Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 293.0 Tm
+(Donut chart) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 293.0 Tm
+(v_current_batting_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 293.0 Tm
+(Legend: dismissal_info | Values: Count of player_name. \(Shows caught, bowled, not out\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 289.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 274.0 Tm
+(Bottom-Left Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 274.0 Tm
+(Clustered bar) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 274.0 Tm
+(v_current_batting_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 274.0 Tm
+(Y-axis: player_name | X-axis: runs \(Sorted descending to highlight top scorers\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 270.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 255.0 Tm
+(Bottom-Middle Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 255.0 Tm
+(Stacked bar) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 255.0 Tm
+(v_current_batting_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 255.0 Tm
+(Y-axis: player_name | X-axis: Sum of fours, Sum of sixes \(Boundary breakdown\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 251.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 236.0 Tm
+(Bottom-Right Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 236.0 Tm
+(Clustered bar) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 236.0 Tm
+(v_current_batting_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 236.0 Tm
+(Y-axis: player_name | X-axis: strike_rate \(Visual filter: balls_faced >= 5\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 232.0 532.0 1.0 re f
+
+endstream
+endobj
+14 0 obj
+<< /Length 10510 >>
+stream
+
+0.030 0.070 0.050 rg 0.0 0.0 612.0 792.0 re f
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 755.0 552.0 22.0 re B
+
+0.000 0.850 0.450 rg 30.0 755.0 4.0 22.0 re f
+
+BT
+/F2 8.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 42.0 762.0 Tm
+(TEAM ELITE CREW  |  GODREJ DATA ANALYSIS TRAINING PROGRAM) Tj
+ET
+
+BT
+/F2 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 420.0 762.0 Tm
+(POWER BI DASHBOARD BLUEPRINT) Tj
+ET
+
+0.080 0.250 0.170 rg 30.0 25.0 552.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 15.0 Tm
+(Godrej Cricket Intelligence -- Real-Time Analytics Platform) Tj
+ET
+
+BT
+/F2 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 520.0 15.0 Tm
+(Page 5 of 7) Tj
+ET
+
+BT
+/F2 14 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 30.0 735.0 Tm
+(PAGE 4: BOWLING ANALYTICS) Tj
+ET
+
+BT
+/F1 9 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 720.0 Tm
+(Canvas Background: powerbi/assets/04_Bowling_Background.png  |  Role: Economy & Spell Efficiency) Tj
+ET
+
+0.000 0.850 0.450 RG 1 w 0.040 0.090 0.070 rg 30.0 480.0 552.0 225.0 re B
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 690.0 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 679.5 Tm
+(|  [||| TEAM ELITE CREW]                         [Home]  [Live Match]  [Batting]  [Bowling*] [Innings]  |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 669.0 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 658.5 Tm
+(|  +----------+ +----------+ +----------+ +--------------+ +--------------+ +--------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 648.0 Tm
+(|  | Total    | | Best     | | Total    | | Total Dot    | | Best Bowling | | Best Bowling       |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 637.5 Tm
+(|  | Wickets  | | Economy  | | Maidens  | | Balls        | | Average      | | Strike Rate        |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 627.0 Tm
+(|  | [Card]   | | [Card]   | | [Card]   | | [Card]       | | [Card]       | | [Card]             |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 616.5 Tm
+(|  +----------+ +----------+ +----------+ +--------------+ +--------------+ +--------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 606.0 Tm
+(|                                                                                                    |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 595.5 Tm
+(|  +----------------------------------------------+  +-------------------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 585.0 Tm
+(|  | Economy Rate vs Bowling Average              |  | Leading Wicket Takers                     |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 574.5 Tm
+(|  | \(Scatter Chart / Matrix\)                     |  | \(Clustered Bar Chart\)                     |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 564.0 Tm
+(|  +----------------------------------------------+  +-------------------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 553.5 Tm
+(|                                                                                                    |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 543.0 Tm
+(|  +-------------------------+  +-------------------------+  +-----------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 532.5 Tm
+(|  | Dot Ball Pressure       |  | Runs Conceded           |  | Overs Bowled per Bowler           |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 522.0 Tm
+(|  | \(Clustered Bar Chart\)   |  | \(Clustered Bar Chart\)   |  | \(Clustered Bar Chart\)             |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 511.5 Tm
+(|  +-------------------------+  +-------------------------+  +-----------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 501.0 Tm
+(|                                                                                                    |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 490.5 Tm
+(|  +---------------------------------------------------------------------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 480.0 Tm
+(|  | Bowler Discipline & Extras Conceded \(Table\)                                                 |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 469.5 Tm
+(|  +---------------------------------------------------------------------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 459.0 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 45.0 552.0 425.0 re B
+
+BT
+/F2 11 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 45.0 455.0 Tm
+(CONTAINER MAPPINGS & DATA SPECIFICATION) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 435.0 Tm
+(Container Box) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 140.0 435.0 Tm
+(Visual Type) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 230.0 435.0 Tm
+(Data View / Measure) Tj
+ET
+
+BT
+/F2 7 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 355.0 435.0 Tm
+(Field Mappings & Formatting Rules) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 431.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 416.0 Tm
+(KPI 1: Total Wickets) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 416.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 416.0 Tm
+([Wickets Taken]) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 416.0 Tm
+(Sum of all dismissals taken across innings.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 412.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 397.0 Tm
+(KPI 2: Best Economy) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 397.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 397.0 Tm
+(v_current_bowling_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 397.0 Tm
+(Field: Min of economy_rate \(Lowest runs/over\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 393.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 378.0 Tm
+(KPI 3: Maidens) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 378.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 378.0 Tm
+(v_current_bowling_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 378.0 Tm
+(Field: Sum of maidens.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 374.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 359.0 Tm
+(KPI 4: Dot Balls) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 359.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 359.0 Tm
+(v_current_bowling_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 359.0 Tm
+(Field: Sum of dots \(Total scoreless legal deliveries\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 355.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 340.0 Tm
+(KPI 5: Best Average) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 340.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 340.0 Tm
+(v_current_bowling_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 340.0 Tm
+(Field: Min of bowling_average \(Runs conceded / wicket\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 336.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 321.0 Tm
+(KPI 6: Best Bowling SR) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 321.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 321.0 Tm
+(v_current_bowling_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 321.0 Tm
+(Field: Min of bowling_strike_rate \(Balls / wicket\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 317.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 302.0 Tm
+(Middle-Left Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 302.0 Tm
+(Scatter chart) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 302.0 Tm
+(v_current_bowling_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 302.0 Tm
+(X-axis: economy_rate | Y-axis: bowling_average | Values: player_name | Size: wickets.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 298.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 283.0 Tm
+(Middle-Right Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 283.0 Tm
+(Clustered bar) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 283.0 Tm
+(v_current_bowling_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 283.0 Tm
+(Y-axis: player_name | X-axis: wickets \(Sorted descending\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 279.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 264.0 Tm
+(Row 3 Left Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 264.0 Tm
+(Clustered bar) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 264.0 Tm
+(v_current_bowling_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 264.0 Tm
+(Y-axis: player_name | X-axis: dots \(Shows pressure builders\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 260.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 245.0 Tm
+(Row 3 Middle Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 245.0 Tm
+(Clustered bar) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 245.0 Tm
+(v_current_bowling_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 245.0 Tm
+(Y-axis: player_name | X-axis: runs_conceded.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 241.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 226.0 Tm
+(Row 3 Right Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 226.0 Tm
+(Clustered bar) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 226.0 Tm
+(v_current_bowling_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 226.0 Tm
+(Y-axis: player_name | X-axis: overs_bowled.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 222.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 207.0 Tm
+(Bottom Long Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 207.0 Tm
+(Table) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 207.0 Tm
+(v_current_bowling_scorecard) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 207.0 Tm
+(Columns: player_name, overs_bowled, maidens, runs_conceded, wides, no_balls, economy_rate.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 203.0 532.0 1.0 re f
+
+endstream
+endobj
+15 0 obj
+<< /Length 9960 >>
+stream
+
+0.030 0.070 0.050 rg 0.0 0.0 612.0 792.0 re f
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 755.0 552.0 22.0 re B
+
+0.000 0.850 0.450 rg 30.0 755.0 4.0 22.0 re f
+
+BT
+/F2 8.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 42.0 762.0 Tm
+(TEAM ELITE CREW  |  GODREJ DATA ANALYSIS TRAINING PROGRAM) Tj
+ET
+
+BT
+/F2 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 420.0 762.0 Tm
+(POWER BI DASHBOARD BLUEPRINT) Tj
+ET
+
+0.080 0.250 0.170 rg 30.0 25.0 552.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 15.0 Tm
+(Godrej Cricket Intelligence -- Real-Time Analytics Platform) Tj
+ET
+
+BT
+/F2 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 520.0 15.0 Tm
+(Page 6 of 7) Tj
+ET
+
+BT
+/F2 14 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 30.0 735.0 Tm
+(PAGE 5: INNINGS PROGRESSION & TOURNAMENT INSIGHTS) Tj
+ET
+
+BT
+/F1 9 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 720.0 Tm
+(Canvas Background: powerbi/assets/05_Innings_Background.png  |  Role: Head-to-Head Multi-Innings Chase) Tj
+ET
+
+0.000 0.850 0.450 RG 1 w 0.040 0.090 0.070 rg 30.0 480.0 552.0 225.0 re B
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 690.0 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 679.5 Tm
+(|  [||| TEAM ELITE CREW]                         [Home]  [Live Match]  [Batting]  [Bowling]  [Innings*] |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 669.0 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 658.5 Tm
+(|  +----------------------------------------------+  +-------------------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 648.0 Tm
+(|  | Innings 1 Summary \(Team A\)                   |  | Innings 2 Summary \(Team B - Chase\)        |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 637.5 Tm
+(|  | \(Card / Multi-row Card\)                      |  | \(Card / Multi-row Card\)                   |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 627.0 Tm
+(|  | * Filter: innings_number = 1                 |  | * Filter: innings_number = 2              |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 616.5 Tm
+(|  | * Runs/Wickets, Overs, CRR                   |  | * Runs/Wickets, Overs, Target, RRR        |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 606.0 Tm
+(|  +----------------------------------------------+  +-------------------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 595.5 Tm
+(|                                                                                                    |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 585.0 Tm
+(|  +-----------------------------------+  +-------------------------+  +-------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 574.5 Tm
+(|  | Head-to-Head Innings Scorecard    |  | Total Match Extras      |  | Match Result / Status   |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 564.0 Tm
+(|  | \(Table\)                           |  | \(Card\)                  |  | \(Card\)                  |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 553.5 Tm
+(|  +-----------------------------------+  +-------------------------+  +-------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 543.0 Tm
+(|                                                                                                    |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 532.5 Tm
+(|  +----------------------------------------------+  +-------------------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 522.0 Tm
+(|  | Worm Progression Curve \(Cumulative Runs\)     |  | Fall of Wickets Timeline per Over         |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 511.5 Tm
+(|  | \(Line Chart\)                                 |  | \(Line / Clustered Column Chart\)           |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 501.0 Tm
+(|  +----------------------------------------------+  +-------------------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 490.5 Tm
+(|                                                                                                    |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 480.0 Tm
+(|  +-------------------------+  +-------------------------+  +-----------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 469.5 Tm
+(|  | Extras Breakdown        |  | Run Rate Comparison     |  | Data Provenance Badge             |   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 459.0 Tm
+(|  +-------------------------+  +-------------------------+  +-----------------------------------+   |) Tj
+ET
+
+BT
+/F3 6.8 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 38.0 448.5 Tm
+(+----------------------------------------------------------------------------------------------------+) Tj
+ET
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 45.0 552.0 425.0 re B
+
+BT
+/F2 11 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 45.0 455.0 Tm
+(CONTAINER MAPPINGS & DATA SPECIFICATION) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 435.0 Tm
+(Container Box) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 140.0 435.0 Tm
+(Visual Type) Tj
+ET
+
+BT
+/F2 7.5 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 230.0 435.0 Tm
+(Data View / Measure) Tj
+ET
+
+BT
+/F2 7 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 355.0 435.0 Tm
+(Field Mappings & Formatting Rules) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 431.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 416.0 Tm
+(Top-Left Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 416.0 Tm
+(Multi-row card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 416.0 Tm
+(v_match_innings_summary) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 416.0 Tm
+(Filter: innings_number=1 | Fields: batting_team, total_runs, total_wickets, total_overs, run_rate.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 412.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 397.0 Tm
+(Top-Right Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 397.0 Tm
+(Multi-row card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 397.0 Tm
+(v_match_innings_summary) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 397.0 Tm
+(Filter: innings_number=2 | Fields: batting_team, total_runs, total_wickets, total_overs, run_rate.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 393.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 378.0 Tm
+(Row 2 Left Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 378.0 Tm
+(Table) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 378.0 Tm
+(v_match_innings_summary) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 378.0 Tm
+(Columns: innings_name, total_runs, total_wickets, total_overs, run_rate, extras_total.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 374.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 359.0 Tm
+(Row 2 Middle Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 359.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 359.0 Tm
+(v_match_innings_summary) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 359.0 Tm
+(Field: Sum of extras_total.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 355.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 340.0 Tm
+(Row 2 Right Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 340.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 340.0 Tm
+(v_live_match_summary) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 340.0 Tm
+(Field: result_status \(e.g. 'CSK won by 5 wickets'\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 336.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 321.0 Tm
+(Row 3 Left Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 321.0 Tm
+(Line chart) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 321.0 Tm
+(v_worm_comparison) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 321.0 Tm
+(X-axis: overs | Y-axis: runs | Legend: batting_team \(Comparative over chase curves\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 317.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 302.0 Tm
+(Row 3 Right Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 302.0 Tm
+(Line chart) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 302.0 Tm
+(v_worm_comparison) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 302.0 Tm
+(X-axis: overs | Y-axis: wickets | Legend: batting_team \(Wickets lost timeline\).) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 298.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 283.0 Tm
+(Row 4 Left Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 283.0 Tm
+(Stacked column) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 283.0 Tm
+(v_match_innings_summary) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 283.0 Tm
+(X-axis: batting_team | Y-axis: extras_wides, extras_no_balls, byes, leg_byes.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 279.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 264.0 Tm
+(Row 4 Middle Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 264.0 Tm
+(Clustered column) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 264.0 Tm
+(v_match_innings_summary) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 264.0 Tm
+(X-axis: innings_name | Y-axis: run_rate.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 260.0 532.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 245.0 Tm
+(Row 4 Right Box) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 140.0 245.0 Tm
+(Card) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 230.0 245.0 Tm
+([Data Provenance Banner]) Tj
+ET
+
+BT
+/F1 7 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 355.0 245.0 Tm
+(Displays 'DEMO / SIMULATED DATA' in Amber gold.) Tj
+ET
+
+0.080 0.250 0.170 rg 40.0 241.0 532.0 1.0 re f
+
+endstream
+endobj
+16 0 obj
+<< /Length 5396 >>
+stream
+
+0.030 0.070 0.050 rg 0.0 0.0 612.0 792.0 re f
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 755.0 552.0 22.0 re B
+
+0.000 0.850 0.450 rg 30.0 755.0 4.0 22.0 re f
+
+BT
+/F2 8.5 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 42.0 762.0 Tm
+(TEAM ELITE CREW  |  GODREJ DATA ANALYSIS TRAINING PROGRAM) Tj
+ET
+
+BT
+/F2 8 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 420.0 762.0 Tm
+(POWER BI DASHBOARD BLUEPRINT) Tj
+ET
+
+0.080 0.250 0.170 rg 30.0 25.0 552.0 1.0 re f
+
+BT
+/F1 7.5 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 15.0 Tm
+(Godrej Cricket Intelligence -- Real-Time Analytics Platform) Tj
+ET
+
+BT
+/F2 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 520.0 15.0 Tm
+(Page 7 of 7) Tj
+ET
+
+BT
+/F2 14 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 30.0 735.0 Tm
+(TEAMMATE CHEAT-SHEET & EVALUATION VIVA GUIDE) Tj
+ET
+
+BT
+/F1 9 Tf
+0.550 0.750 0.650 rg
+1 0 0 1 30.0 720.0 Tm
+(Model Answers to Expected Questions from Evaluators and Professors) Tj
+ET
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 615.0 552.0 90.0 re B
+
+BT
+/F2 9 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 683.0 Tm
+(Q1: Why did you use DirectQuery instead of Power BI's default Import mode?) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 667.0 Tm
+(Answer: Import mode caches data into Power BI's VertiPaq engine and requires manual or) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 654.0 Tm
+(scheduled dataset refreshes. DirectQuery queries PostgreSQL live on every render cycle. This) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 641.0 Tm
+(achieves a 30-second real-time scoreboard update cadence without storing stale copies or) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 628.0 Tm
+(hitting external API rate limits.) Tj
+ET
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 515.0 552.0 90.0 re B
+
+BT
+/F2 9 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 583.0 Tm
+(Q2: How did you solve the 100-hit/day free API quota limitation of CricketData.org / CricAPI?) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 567.0 Tm
+(Answer: A naive 30-second polling loop exhausts 100 hits in just 50 minutes. We engineered a) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 554.0 Tm
+(decoupled 3-tier refresh architecture: external API calls are throttled to 120-300s with) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 541.0 Tm
+(circuit breakers, while Power BI refreshes locally from PostgreSQL every 30s at ZERO API) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 528.0 Tm
+(cost. We also built an offline deterministic replay simulator using real Cricsheet IPL) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 515.0 Tm
+(fixtures.) Tj
+ET
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 415.0 552.0 90.0 re B
+
+BT
+/F2 9 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 483.0 Tm
+(Q3: How does your system handle cricket-specific domain math \(overs notation vs. decimal\)?) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 467.0 Tm
+(Answer: Standard BI tools make mathematical errors by treating cricket overs like 19.5 as a) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 454.0 Tm
+(decimal. In our pipeline, overs are converted into integer legal deliveries \(19 * 6 + 5 =) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 441.0 Tm
+(119 balls\), calculating true decimal overs \(19.833\) for Run Rate and Economy. We also) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 428.0 Tm
+(enforce strict NULL vs. zero semantics: batters who did not face a ball receive a NULL) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 415.0 Tm
+(strike rate rather than a false 0.00 duck.) Tj
+ET
+
+0.080 0.250 0.170 RG 1 w 0.060 0.120 0.090 rg 30.0 315.0 552.0 90.0 re B
+
+BT
+/F2 9 Tf
+1.000 0.840 0.000 rg
+1 0 0 1 45.0 383.0 Tm
+(Q4: Where is the code and documentation hosted?) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 367.0 Tm
+(Answer: The complete pipeline is open-source and version-controlled on GitHub at) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 354.0 Tm
+(ashhhcodes/godrej-cricket-intelligence, backed by 44 automated unit and integration tests) Tj
+ET
+
+BT
+/F1 8 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 341.0 Tm
+(covering idempotency, quota budgets, and calculation parity.) Tj
+ET
+
+0.000 0.850 0.450 RG 1.5 w 0.040 0.090 0.070 rg 30.0 45.0 552.0 235.0 re B
+
+BT
+/F2 11 Tf
+0.000 0.900 0.460 rg
+1 0 0 1 45.0 260.0 Tm
+(DEMO DAY PRESENTATION RUNBOOK \(STEP-BY-STEP\)) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 238.0 Tm
+(1. Open Power BI Desktop with 'Godrej_Cricket_Intelligence.pbix'.) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 221.0 Tm
+(2. Press F11 \(or View -> Full Screen\) so the ribbons disappear and the stadium dashboard fills the screen.) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 204.0 Tm
+(3. Open PowerShell side-by-side in D:\\Godrej_RealTime_Dashboard.) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 187.0 Tm
+(4. Type 'python src/main.py replay' and press Enter.) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 170.0 Tm
+(5. Watch the evaluation panel's reaction as deliveries, scorecards, and worm curves update live every 30s!) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 153.0 Tm
+(6. If asked about the database, show PostgreSQL running locally on port 5432 with 8 tables and 6 views.) Tj
+ET
+
+BT
+/F1 8.5 Tf
+0.980 0.980 0.980 rg
+1 0 0 1 45.0 136.0 Tm
+(7. Point out the data provenance banner: academic integrity is preserved with transparent simulated labelling.) Tj
+ET
+
+endstream
+endobj
+17 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+18 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+19 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+20 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000151 00000 n 
+0000000385 00000 n 
+0000000619 00000 n 
+0000000853 00000 n 
+0000001087 00000 n 
+0000001321 00000 n 
+0000001555 00000 n 
+0000001789 00000 n 
+0000008088 00000 n 
+0000015777 00000 n 
+0000025052 00000 n 
+0000035045 00000 n 
+0000045609 00000 n 
+0000055622 00000 n 
+0000061071 00000 n 
+0000061142 00000 n 
+0000061218 00000 n 
+0000061287 00000 n 
+trailer
+<< /Size 21
+   /Root 1 0 R
+>>
+startxref
+61361
+%%EOF
