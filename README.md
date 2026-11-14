@@ -1,112 +1,233 @@
-# Godrej Cricket Intelligence — Real-Time Analytics Dashboard
-### Team Elite Crew | College Project for Godrej Data Analysis Training Program
+<div align="center">
 
-An enterprise-grade, real-time cricket analytics platform that integrates a **Python 3.11** data pipeline, a **PostgreSQL 16** relational data warehouse with analytical DirectQuery reporting views, and a **Microsoft Power BI Desktop** live broadcast scoreboard dashboard with 30-second Automatic Page Refresh (APR).
+# 🏏 Godrej Cricket Intelligence
+### Enterprise-Grade Real-Time Cricket Analytics & In-Play Machine Learning Platform
+**Team Elite Crew** | College Project for Godrej Data Analysis Training Program
 
----
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Power BI](https://img.shields.io/badge/Power_BI-DirectQuery-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-0.9557_ROC--AUC-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Tests](https://img.shields.io/badge/Tests-52_Passing-00E676?style=for-the-badge&logo=pytest&logoColor=white)](https://docs.pytest.org/)
+[![License](https://img.shields.io/badge/License-ODC--By_v1.0-blue?style=for-the-badge)](https://opendatacommons.org/licenses/by/1-0/)
 
-## 🌟 Key Highlights & Engineering Features
+<p align="center">
+  <b>A real-time broadcast analytics suite decoupling high-frequency dashboard queries from third-party API quotas, powered by an analytical PostgreSQL data warehouse, deterministic ball-by-ball IPL replay simulation, a calibrated In-Play Win Probability ML model, and a 5-page Power BI DirectQuery dashboard.</b>
+</p>
 
-1. **Decoupled 3-Tier Refresh Architecture:**
-   * Solves the free-tier API quota limit (100 hits/day on CricketData.org / CricAPI) by decoupling external polling (120s–300s) from Power BI rendering (30s).
-   * Power BI queries the local PostgreSQL warehouse via **DirectQuery**, consuming **zero external API calls**.
-2. **Deterministic Offline Replay Engine:**
-   * Built-in simulation engine replaying real ball-by-ball deliveries from historical Cricsheet IPL fixtures (ODC-By v1.0).
-   * Fully restartable and idempotent — automatically finalizes matches and resets for continuous, non-stop presentations.
-3. **Strict Cricket Domain Math:**
-   * Accurately converts cricket overs notation (e.g., `19.5`) into integer legal balls ($19 \times 6 + 5 = 119\text{ balls}$) to compute true decimal overs ($19.833$) for Run Rate and Economy calculations, avoiding naive decimal addition traps ($2.4\text{ ov} + 3.5\text{ ov} = 39\text{ balls} = 6.3\text{ ov}$, never $5.9$).
-4. **Strict NULL vs. Zero Semantics:**
-   * Batters who did not face a ball receive a `NULL` strike rate (never `0.00`, which falsely represents a duck).
-   * Bowlers who bowled 0 overs receive a `NULL` economy rate.
-5. **Data Provenance Transparency:**
-   * All simulated data is tagged with `is_simulated = TRUE` and displayed with a clear banner (`● DEMO / SIMULATED DATA (OFFLINE REPLAY)`).
-6. **In-Play Win Probability Machine Learning Engine:**
-   * Calibrated predictive model scoring in-play victory probability with **0.9557 ROC-AUC** and **0.0766 Brier score**.
-   * Enforces strict physical domain invariants (100% on target reached, 0% on all-out) and engineers non-linear pressure dynamics ($PI = \frac{\text{RRR}}{\text{Wickets in Hand} + 1}$).
-7. **100% Automated Test Coverage:**
-   * 52 automated unit, integration, ML boundary, and calculation-parity tests passing in `pytest`.
+[Architecture](#-system-architecture) • [Key Features](#-key-engineering-highlights) • [ML Model](#-in-play-win-probability-machine-learning) • [Dashboard Pages](#-5-page-power-bi-dashboard-suite) • [Quickstart](#-quickstart-guide) • [Tests](#-automated-testing-suite)
 
 ---
 
-## 🚀 Quickstart Guide (5 Minutes Setup)
+</div>
 
-Follow these steps to run the project on your machine from where we left off.
+## 📐 System Architecture
+
+The platform uses a **decoupled 3-tier streaming architecture** to solve the strict 100 hit/day free-tier quota of external sports APIs while powering 30-second live dashboard refreshes:
+
+```mermaid
+flowchart TD
+    subgraph DataSources["1. Data Ingestion & Replay Layer"]
+        A1["Cricsheet.org IPL Ball-by-Ball JSON"] --> B1["Deterministic Replay Engine\n(replay_engine.py)"]
+        A2["CricketData.org REST API\n(100 hits/day)"] --> B2["Quota Budget Manager\n(budget_manager.py)"]
+        B2 --> B3["Resilient CricAPI Client\n(cricapi_client.py)"]
+        B1 & B3 --> C["Data Normalization Engine\n(Strict NULL vs. Zero Semantics)"]
+    end
+
+    subgraph StorageLayer["2. Analytical Warehouse (PostgreSQL 16)"]
+        C --> D[("8 Operational Tables\nmatches, match_state, deliveries, scorecards")]
+        D --> E["6 DirectQuery Analytical Views\nv_live_match_summary, v_worm_comparison,\nv_current_batting_scorecard, etc."]
+    end
+
+    subgraph AnalyticsLayer["3. Intelligence & Machine Learning"]
+        D --> F1["In-Play Win Probability ML Engine\n(ml_win_probability.py)"]
+        F1 --> F2["Pressure Index & Feature Engineering"]
+        F2 --> F3["Calibrated Logistic Classifier\nROC-AUC: 0.9557 | Brier: 0.0766"]
+    end
+
+    subgraph PresentationLayer["4. Executive Visualization (Power BI)"]
+        E --> G["Power BI Desktop (DirectQuery)\n30-Second Automatic Page Refresh"]
+        G --> H1["Page 1: Home Navigation Portal"]
+        G --> H2["Page 2: Live Match Center"]
+        G --> H3["Page 3: Batting Analytics"]
+        G --> H4["Page 4: Bowling Efficiency Matrix"]
+        G --> H5["Page 5: Innings Progression Worm"]
+    end
+
+    style DataSources fill:#111927,stroke:#00E5FF,stroke-width:2px,color:#FFFFFF
+    style StorageLayer fill:#111927,stroke:#00E676,stroke-width:2px,color:#FFFFFF
+    style AnalyticsLayer fill:#111927,stroke:#FFAA00,stroke-width:2px,color:#FFFFFF
+    style PresentationLayer fill:#111927,stroke:#7C4DFF,stroke-width:2px,color:#FFFFFF
+```
+
+---
+
+## 🌟 Key Engineering Highlights
+
+### 1. Zero-Quota Decoupled Architecture
+* Standard Power BI dashboards querying live sports APIs exhaust free-tier quotas (100 hits/day) in **under 50 minutes** at 30s polling intervals.
+* This platform decouples external polling (120s–300s) from presentation rendering. Power BI queries the local PostgreSQL data warehouse exclusively via **DirectQuery**, consuming **0 external API calls** per dashboard refresh.
+
+### 2. Deterministic Ball-by-Ball Replay Engine
+* Built-in event-driven simulator replaying real ball-by-ball deliveries from historical Cricsheet IPL fixtures (ODC-By v1.0).
+* Fully restartable and idempotent — handles process termination, match finalization, and infinite looping for reliable viva/demo presentations.
+
+### 3. Strict Cricket Domain Mathematics ($19.5 \neq 19.5$)
+> [!IMPORTANT]
+> In cricket notation, `19.5` represents **19 completed overs and 5 legal deliveries** ($19 \times 6 + 5 = 119\text{ balls}$), **NOT** 19.5 decimal overs ($119 / 6.0 = 19.833$). Naive decimal addition ($2.4\text{ ov} + 3.5\text{ ov} = 5.9\text{ ov}$) is invalid.
+> 
+> All DAX measures and SQL views:
+> 1. Convert overs into legal integer deliveries ($(\text{Overs} \times 6) + \text{Balls}$).
+> 2. Aggregate legal deliveries before computing decimal rates ($119 / 6 = 19.833$).
+> 3. Format back into cricket string notation (`"Overs.Balls"`) strictly for display.
+
+### 4. Strict NULL vs. Zero Semantics
+* A batter facing 0 balls receives a `NULL` strike rate (never `0.00`, which falsely indicates a duck).
+* A bowler bowling 0 overs receives a `NULL` economy rate.
+
+---
+
+## 🤖 In-Play Win Probability Machine Learning
+
+The platform features a statistical Machine Learning model predicting in-play chase victory probability $P(\text{Win} = 1 \mid \mathcal{S}_t)$ at any discrete delivery state.
+
+### Evaluation Metrics (Hold-out Test Set)
+
+| Metric | Holdout Score | Industry Benchmark | Significance |
+| :--- | :---: | :---: | :--- |
+| **ROC-AUC Score** | **0.9557** | $> 0.8500$ | Exceptional discriminative power between win/loss states |
+| **5-Fold Cross-Val ROC-AUC** | **0.9548 $\pm$ 0.0046** | $> 0.8500$ | High generalization across distinct match conditions |
+| **Brier Calibration Score** | **0.0766** | $< 0.1500$ | True, reliable probability calibration |
+| **Classification Accuracy** | **89.00%** | $> 80.0\%$ | High predictive accuracy |
+| **Log Loss** | **0.2525** | $< 0.4000$ | Optimal probabilistic convergence |
+
+### Domain Boundary Invariants (Guaranteed Constraints)
+Unlike unconstrained neural networks that can predict nonsensical probabilities, our model wraps inference in an **Invariant Guard Layer**:
+* **Target Reached:** $R_t \ge T \implies P(\text{Win}) = 1.0 \quad (100.0\%)$
+* **All-Out:** $W_t \ge 10 \land R_t < T \implies P(\text{Win}) = 0.0 \quad (0.0\%)$
+* **Overs Exhausted:** $B_t \ge 120 \land R_t < T \implies P(\text{Win}) = 0.0 \quad (0.0\%)$
+
+### Feature Importance & Coefficients
+* **`+ wickets_in_hand (+0.5632)`**: Dominant predictor of successful chases.
+* **`+ is_powerplay (+0.4531)`**: Favorable field restrictions elevate scoring odds.
+* **`- pressure_index (-0.5169)`**: $PI = \frac{\text{Required Run Rate}}{\text{Wickets in Hand} + 1}$ scales required pace by resource scarcity.
+* **`- is_death (-0.3865)`**: High-risk death overs phase favors the defending bowling side.
+* **`- required_run_rate (-0.2812)`**: Escalating required rate rapidly decays win odds.
+
+---
+
+## 📊 5-Page Power BI Dashboard Suite
+
+The Power BI report ([`Godrej_Cricket_Intelligence.pbix`](file:///d:/Godrej_RealTime_Dashboard/Godrej_Cricket_Intelligence.pbix)) uses a custom stadium floodlight theme with neon green accents (`#00E676`) and 30-second Automatic Page Refresh:
+
+<details open>
+<summary><b>🏟️ Click to expand Page Overview & Visual Inventory</b></summary>
+
+| Page # | Page Name | Primary Visuals & Features |
+| :---: | :--- | :--- |
+| **1** | **Home Navigation Portal** | Tournament branding, single-click navigation tiles to all sub-pages, data provenance badge. |
+| **2** | **Live Match Center** | Live score headline (`CSK 99/3 (6.6 ov)`), Top KPI strip (Score, CRR, Target, RRR, Status), Batting Scorecard, Bowling Scorecard, Over-by-over Worm Chart, Extras breakdown. |
+| **3** | **Batting Analytics** | 6 KPI cards (Total Runs, Balls, Fours, Sixes, Strike Rate, Boundary %), Boundary % vs Strike Rate scatter analysis, Dismissal Breakdown donut, Top Run Scorers, Fours vs Sixes breakdown. |
+| **4** | **Bowling Efficiency Matrix** | 6 KPI cards (Wickets, Runs Conceded, Overs, Dot Balls, Bowling Avg, Economy), Economy vs Bowling Average efficiency scatter, Dot Balls by Bowler, Wickets & Runs conceded. |
+| **5** | **Innings Progression** | Cumulative Run Progression Worm (comparing both innings head-to-head), Over-by-Over Run Rate analysis, Wickets Progression, Extras Breakdown. |
+
+</details>
+
+---
+
+## 🚀 Quickstart Guide
 
 ### 1. Prerequisites
 * **Windows 10 / 11** (64-bit)
 * **Python 3.11+** installed and added to PATH
 * **PostgreSQL 16+** installed on port `5432`
-* **Microsoft Power BI Desktop** installed (Microsoft Store or standalone MSI)
+* **Microsoft Power BI Desktop**
 
----
-
-### 2. Clone Repository & Setup Python
+### 2. Setup Environment
 ```bash
 git clone https://github.com/ashhhcodes/godrej-cricket-intelligence.git
 cd godrej-cricket-intelligence
 
-# Create and activate virtual environment
+# Create virtual environment
 python -m venv venv
 .\venv\Scripts\activate
 
-# Install required dependencies
+# Install dependencies (includes scikit-learn, psycopg, pydantic)
 pip install -r requirements.txt
 ```
 
----
-
-### 3. Setup Local PostgreSQL Database
-1. Open `psql` or pgAdmin and create the dedicated database:
+### 3. Configure Database & Apply Migrations
+1. In `psql` or pgAdmin:
    ```sql
    CREATE DATABASE godrej_cricket_db;
    ```
-2. Copy the environment configuration template:
+2. Copy configuration template:
    ```bash
    cp .env.example .env
    ```
-3. Open `.env` and set your local PostgreSQL password:
-   ```env
-   POSTGRES_HOST=localhost
-   POSTGRES_PORT=5432
-   POSTGRES_DB=godrej_cricket_db
-   POSTGRES_USER=postgres
-   POSTGRES_PASSWORD=your_actual_password_here
-   ALLOW_LIVE_API=false
-   INGESTION_MODE=fixture_replay
-   ```
-4. Verify database connection and apply migrations:
+3. Set your local PostgreSQL password in `.env`, then run:
    ```bash
    python src/main.py test-connection
    python src/main.py migrate
    ```
-   *This automatically applies `sql/001_initial_schema.sql` (8 tables) and `sql/002_reporting_views.sql` (6 DirectQuery views).*
 
----
+### 4. Interactive CLI Commands
 
-### 4. Run Automated Tests
-Verify that all 44 automated tests pass on your machine:
+#### In-Play Win Probability ML Prediction:
 ```bash
-pytest -v
+python src/main.py predict-win-prob --runs 99 --wickets 3 --overs 6.6 --target 215 --batting "Chennai Super Kings" --bowling "Gujarat Titans"
+```
+**Sample Output:**
+```text
+=================================================================
+IN-PLAY WIN PROBABILITY & MATCH INTELLIGENCE
+=================================================================
+  Match Context:      Chennai Super Kings vs Gujarat Titans
+  Target:             215 runs | Current: 99/3 (6.6 ov)
+  Runs Needed:        116 runs from 78 balls
+  Required Run Rate:  8.92 RPO (Current: 14.14 RPO)
+  Pressure Index:     1.12 (Phase: Middle Overs)
+  Projected Score:    283 runs
+-----------------------------------------------------------------
+  * Chennai Super Kings  Win Probability:  93.1%
+  * Gujarat Titans       Win Probability:   6.9%
+-----------------------------------------------------------------
+  Dominant Team:      Chennai Super Kings
+=================================================================
 ```
 
----
-
-### 5. Launch the Power BI Dashboard
-1. Open **[`Godrej_Cricket_Intelligence.pbix`](file:///d:/Godrej_RealTime_Dashboard/Godrej_Cricket_Intelligence.pbix)** in **Microsoft Power BI Desktop**.
-2. If prompted for PostgreSQL credentials:
-   * Select **Database** authentication tab.
-   * User: `postgres`, Password: *(your local password)*.
-   * If asked about encryption, select **Unencrypted Connection** (standard for `localhost`).
-3. You will see **Page 1: Live Match Center** with the custom stadium floodlight background, live match KPIs, batting table, bowling figures, and over progression chart.
-
----
-
-### 6. Start Live Replay Simulation
-In PowerShell:
+#### Run Replay Simulation:
 ```bash
 python src/main.py replay
 ```
-Keep Power BI Desktop and PowerShell open side-by-side. Every 30 seconds, a new delivery is ingested, and the Power BI dashboard ticks forward live!
+
+#### Retrain & Evaluate ML Model:
+```bash
+python src/main.py train-ml
+```
+
+---
+
+## 🧪 Automated Testing Suite
+
+The repository includes **52 automated unit, integration, and ML validation tests** passing with 100% success:
+
+```bash
+pytest tests/ -v
+```
+
+<details>
+<summary><b>🧪 Test Suite Breakdown (7 Suites)</b></summary>
+
+1. **`test_budget_and_client.py`:** Daily quota enforcement, provider telemetry precedence, circuit-breaker on HTTP 429, API key masking.
+2. **`test_dax_and_views_math.py`:** Cricket overs conversion parity, multi-spell accumulation, decimal rate precision, NULL strike rate validation.
+3. **`test_db_idempotency.py`:** PostgreSQL migration discovery order, upsert conflict targets, duplicate sequence prevention.
+4. **`test_ml_win_probability.py`:** ML feature extraction, physical boundary invariants (target reached, all-out), probability monotonicity.
+5. **`test_normalizer.py`:** Data payload normalization, null semantics enforcement, boundary run calculation.
+6. **`test_replay_engine.py`:** Cricsheet JSON parsing, delivery sequencing, state persistence across restarts.
+7. **`test_reporting_views.py`:** SQL analytical view schemas, column definitions, and query validity.
+
+</details>
 
 ---
 
@@ -114,8 +235,8 @@ Keep Power BI Desktop and PowerShell open side-by-side. Every 30 seconds, a new 
 
 ```text
 ├── .env.example                       # Safe environment configuration template
-├── .gitignore                         # Excludes secrets, logs, and temp files
-├── requirements.txt                   # Production Python dependencies
+├── .gitignore                         # Excludes secrets, logs, backups, and temp files
+├── requirements.txt                   # Production Python & Data Science dependencies
 ├── Godrej_Cricket_Intelligence.pbix   # Power BI 5-page DirectQuery broadcast dashboard
 ├── docs/
 │   ├── data-science-modeling.md       # In-play ML win probability model specs & math
@@ -162,41 +283,7 @@ Keep Power BI Desktop and PowerShell open side-by-side. Every 30 seconds, a new 
 
 ---
 
-## 📊 Dashboard Architecture & Pages
-
-The Power BI report (`Godrej_Cricket_Intelligence.pbix`) features a custom dark stadium floodlight theme with 5 dedicated analytics pages:
-
-1. **Home Navigation Portal:** Direct one-click access across all tournament intelligence pages.
-2. **Live Match Center:** Real-time scoreboard headline, live match KPIs (Score, CRR, RRR, Target), in-play batting & bowling scorecards, and live over progression.
-3. **Batting Analytics:** Deep-dive batting statistics, Top Run Scorers, Strike Rate rankings, Boundary percentage vs Strike Rate scatter analysis, and Dismissal breakdowns.
-4. **Bowling Analytics:** Economy Rate vs Bowling Average efficiency matrix, Dot balls by bowler, Wickets & Runs conceded, and bowling spell breakdowns.
-5. **Innings Progression:** Cumulative run progression worm chart (comparing both innings), over-by-over run rate analysis, extras breakdown, and wickets progression.
-
----
-
-## 🤖 In-Play Win Probability Machine Learning Model
-
-The platform integrates a calibrated statistical machine learning model estimating in-play chase victory probability $P(\text{Win} = 1 \mid \mathcal{S}_t)$ with physical boundary invariant guarantees:
-
-### 1. Model Evaluation Metrics (Hold-out Test Set)
-* **Classification Accuracy:** **89.00%**
-* **ROC-AUC Score:** **0.9557** (5-Fold Cross-Val: $0.9548 \pm 0.0046$)
-* **Brier Calibration Score:** **0.0766** ($< 0.15$ indicates well-calibrated probabilities)
-* **Log-Loss:** **0.2525**
-
-### 2. Feature Engineering & Domain Invariants
-* **Pressure Index ($PI$):** Non-linear resource depletion metric: $PI = \frac{\text{Required Run Rate}}{\text{Wickets in Hand} + 1}$.
-* **Invariant Guards:** Automatically enforces $100\%$ on target reached and $0\%$ on all-out or delivery exhaustion.
-
-### 3. CLI In-Play Prediction
-```bash
-python src/main.py predict-win-prob --runs 99 --wickets 3 --overs 6.6 --target 215 --batting "Chennai Super Kings" --bowling "Gujarat Titans"
-```
-
-Interactive exploration is available in [`notebooks/01_inplay_win_probability_modeling.ipynb`](file:///d:/Godrej_RealTime_Dashboard/notebooks/01_inplay_win_probability_modeling.ipynb). Detailed equations and feature weights are documented in [`docs/data-science-modeling.md`](file:///d:/Godrej_RealTime_Dashboard/docs/data-science-modeling.md).
-
----
-
 ## 📜 Attribution & Data Licensing
+
 * **Cricsheet.org:** Ball-by-ball delivery event data provided under the **Open Data Commons Attribution License (ODC-By) v1.0**.
 * **CricketData.org (CricAPI v1):** Live match scorecards and fixture discovery used within Lifetime Free Tier academic boundaries.
