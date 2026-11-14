@@ -42,6 +42,8 @@ logs/
 # Power BI & Office
 *.pbit.backup
 *.pbix.backup
+*_backup.pbix
+scratch/
 *.tmp
 
 # IDE & OS
