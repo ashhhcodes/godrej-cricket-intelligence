@@ -66,6 +66,49 @@ def cmd_test_connection(config: AppConfig) -> None:
         db.close()
 
 
+def cmd_train_ml() -> None:
+    """Trains and evaluates the in-play Win Probability Machine Learning model."""
+    logger.info("Starting Machine Learning training & calibration pipeline...")
+    from src.train_ml_model import train_and_evaluate
+    metrics = train_and_evaluate()
+    logger.info(f"Model successfully trained! Test ROC-AUC: {metrics['metrics']['test_roc_auc']:.4f}")
+
+
+def cmd_predict_win_prob(
+    runs: int, wickets: int, overs: float, target: int, batting: str, bowling: str
+) -> None:
+    """Predicts in-play win probability using the calibrated ML model."""
+    from src.ml_win_probability import CricketWinProbabilityModel, WinProbabilityState
+
+    model = CricketWinProbabilityModel()
+    state = WinProbabilityState.from_overs(
+        current_runs=runs,
+        current_wickets=wickets,
+        overs_float=overs,
+        target_runs=target,
+        batting_team=batting,
+        bowling_team=bowling,
+    )
+    pred = model.predict(state)
+
+    print("\n" + "=" * 65)
+    print("IN-PLAY WIN PROBABILITY & MATCH INTELLIGENCE")
+    print("=" * 65)
+    print(f"  Match Context:      {batting} vs {bowling}")
+    print(f"  Target:             {target} runs | Current: {runs}/{wickets} ({overs:.1f} ov)")
+    print(f"  Runs Needed:        {pred.runs_needed} runs from {pred.balls_remaining} balls")
+    print(f"  Required Run Rate:  {pred.required_run_rate:.2f} RPO (Current: {pred.current_run_rate:.2f} RPO)")
+    print(f"  Pressure Index:     {pred.pressure_index:.2f} (Phase: {pred.match_phase})")
+    print(f"  Projected Score:    {pred.projected_final_score} runs")
+    print("-" * 65)
+    print(f"  * {batting:<20} Win Probability: {pred.chasing_win_pct:>5.1f}%")
+    print(f"  * {bowling:<20} Win Probability: {pred.defending_win_pct:>5.1f}%")
+    print("-" * 65)
+    print(f"  Dominant Team:      {pred.dominant_team}")
+    print(f"  Summary:            {pred.summary_text}")
+    print("=" * 65 + "\n")
+
+
 def cmd_run(config: AppConfig, mode: str, max_cycles: int = None) -> None:
     """Initializes and runs the ingestion engine."""
     if mode == "live":
@@ -137,6 +180,18 @@ def main():
     # status
     subparsers.add_parser("status", help="Display quota telemetry and configuration status")
 
+    # train-ml
+    subparsers.add_parser("train-ml", help="Train and calibrate in-play Win Probability Machine Learning model")
+
+    # predict-win-prob
+    wp_parser = subparsers.add_parser("predict-win-prob", help="Predict in-play chase victory probability")
+    wp_parser.add_argument("--runs", type=int, required=True, help="Current runs scored by chasing team")
+    wp_parser.add_argument("--wickets", type=int, required=True, help="Current wickets lost (0-10)")
+    wp_parser.add_argument("--overs", type=float, required=True, help="Current overs in cricket notation (e.g. 6.6 or 15.2)")
+    wp_parser.add_argument("--target", type=int, required=True, help="Target runs to chase")
+    wp_parser.add_argument("--batting", type=str, default="Chennai Super Kings", help="Chasing team name")
+    wp_parser.add_argument("--bowling", type=str, default="Gujarat Titans", help="Defending team name")
+
     args = parser.parse_args()
 
     try:
@@ -149,6 +204,17 @@ def main():
         cmd_migrate(config)
     elif args.command == "test-connection":
         cmd_test_connection(config)
+    elif args.command == "train-ml":
+        cmd_train_ml()
+    elif args.command == "predict-win-prob":
+        cmd_predict_win_prob(
+            runs=args.runs,
+            wickets=args.wickets,
+            overs=args.overs,
+            target=args.target,
+            batting=args.batting,
+            bowling=args.bowling,
+        )
     elif args.command == "replay":
         cmd_run(config, mode="fixture_replay", max_cycles=args.cycles)
     elif args.command == "live":

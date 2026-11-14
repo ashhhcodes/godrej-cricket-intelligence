@@ -1,0 +1,34 @@
+{
+  "model_type": "LogisticRegression (L2 Penalized)",
+  "features": [
+    "runs_needed",
+    "balls_remaining",
+    "wickets_in_hand",
+    "required_run_rate",
+    "current_run_rate",
+    "run_rate_diff",
+    "pressure_index",
+    "is_powerplay",
+    "is_death"
+  ],
+  "metrics": {
+    "test_accuracy": 0.89,
+    "test_roc_auc": 0.9557032410743677,
+    "test_brier_score": 0.07659364908384377,
+    "test_log_loss": 0.25252722737577227,
+    "cv_roc_auc_mean": 0.9548260004007245,
+    "cv_roc_auc_std": 0.004616368182386592
+  },
+  "intercept": 1.3173634742623317,
+  "feature_coefficients": {
+    "runs_needed": -0.0026,
+    "balls_remaining": 0.004,
+    "wickets_in_hand": 0.5632,
+    "required_run_rate": -0.2812,
+    "current_run_rate": -0.0352,
+    "run_rate_diff": -0.1766,
+    "pressure_index": -0.5169,
+    "is_powerplay": 0.4531,
+    "is_death": -0.3865
+  }
+}

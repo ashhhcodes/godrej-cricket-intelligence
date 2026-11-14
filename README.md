@@ -20,8 +20,11 @@ An enterprise-grade, real-time cricket analytics platform that integrates a **Py
    * Bowlers who bowled 0 overs receive a `NULL` economy rate.
 5. **Data Provenance Transparency:**
    * All simulated data is tagged with `is_simulated = TRUE` and displayed with a clear banner (`● DEMO / SIMULATED DATA (OFFLINE REPLAY)`).
-6. **100% Automated Test Coverage:**
-   * 44 automated unit, integration, and calculation-parity tests passing in `pytest`.
+6. **In-Play Win Probability Machine Learning Engine:**
+   * Calibrated predictive model scoring in-play victory probability with **0.9557 ROC-AUC** and **0.0766 Brier score**.
+   * Enforces strict physical domain invariants (100% on target reached, 0% on all-out) and engineers non-linear pressure dynamics ($PI = \frac{\text{RRR}}{\text{Wickets in Hand} + 1}$).
+7. **100% Automated Test Coverage:**
+   * 52 automated unit, integration, ML boundary, and calculation-parity tests passing in `pytest`.
 
 ---
 
@@ -115,6 +118,7 @@ Keep Power BI Desktop and PowerShell open side-by-side. Every 30 seconds, a new 
 ├── requirements.txt                   # Production Python dependencies
 ├── Godrej_Cricket_Intelligence.pbix   # Power BI 5-page DirectQuery broadcast dashboard
 ├── docs/
+│   ├── data-science-modeling.md       # In-play ML win probability model specs & math
 │   ├── ui-theme-customization-guide.md# Guide for assembling Pages 1–5 with custom backgrounds
 │   ├── phase-1-architecture.md        # Comprehensive architecture & API budget document
 │   ├── implementation-roadmap.md      # Multi-phase project delivery roadmap
@@ -123,6 +127,11 @@ Keep Power BI Desktop and PowerShell open side-by-side. Every 30 seconds, a new 
 │   ├── ingestion-runbook.md           # Operational guide for replay and live modes
 │   ├── powerbi-directquery-guide.md   # DirectQuery configuration and APR troubleshooting
 │   └── dax-measure-dictionary.md      # 22 tested cricket DAX measures
+├── models/
+│   ├── t20_win_probability_model.joblib # Serialized Scikit-Learn calibrated model
+│   └── model_evaluation_metrics.json  # Holdout test metrics (ROC-AUC: 0.9557, Brier: 0.0766)
+├── notebooks/
+│   └── 01_inplay_win_probability_modeling.ipynb # Interactive scenario evaluation notebook
 ├── powerbi/
 │   ├── godrej_cricket_theme.json      # Custom transparent theme with neon green (#00E676)
 │   ├── report_layout_specification.md # Coordinate-level visual layout guide for Pages 1–5
@@ -137,6 +146,8 @@ Keep Power BI Desktop and PowerShell open side-by-side. Every 30 seconds, a new 
 │   ├── 001_initial_schema.sql         # 8 Operational tables, constraints, and indexes
 │   └── 002_reporting_views.sql        # 6 DirectQuery analytical reporting views
 ├── src/
+│   ├── ml_win_probability.py          # Calibrated in-play Win Probability ML engine
+│   ├── train_ml_model.py              # ML training, cross-validation & evaluation pipeline
 │   ├── config.py                      # Pydantic configuration loader with strict guards
 │   ├── budget_manager.py              # 100-hit daily quota manager with safety buffer
 │   ├── cricapi_client.py              # Resilient HTTP client with backoff & circuit-breaker
@@ -145,8 +156,8 @@ Keep Power BI Desktop and PowerShell open side-by-side. Every 30 seconds, a new 
 │   ├── replay_engine.py               # Deterministic Cricsheet ball-by-ball simulator
 │   ├── scheduler.py                   # Ingestion orchestrator and loop manager
 │   ├── logger.py                      # Sanitizing logger (masks API keys & passwords)
-│   └── main.py                        # CLI entrypoint (migrate, replay, live, status)
-└── tests/                             # 44 Automated tests across 6 suites
+│   └── main.py                        # CLI entrypoint (migrate, replay, live, predict-win-prob)
+└── tests/                             # 52 Automated tests across 7 suites
 ```
 
 ---
@@ -160,6 +171,29 @@ The Power BI report (`Godrej_Cricket_Intelligence.pbix`) features a custom dark 
 3. **Batting Analytics:** Deep-dive batting statistics, Top Run Scorers, Strike Rate rankings, Boundary percentage vs Strike Rate scatter analysis, and Dismissal breakdowns.
 4. **Bowling Analytics:** Economy Rate vs Bowling Average efficiency matrix, Dot balls by bowler, Wickets & Runs conceded, and bowling spell breakdowns.
 5. **Innings Progression:** Cumulative run progression worm chart (comparing both innings), over-by-over run rate analysis, extras breakdown, and wickets progression.
+
+---
+
+## 🤖 In-Play Win Probability Machine Learning Model
+
+The platform integrates a calibrated statistical machine learning model estimating in-play chase victory probability $P(\text{Win} = 1 \mid \mathcal{S}_t)$ with physical boundary invariant guarantees:
+
+### 1. Model Evaluation Metrics (Hold-out Test Set)
+* **Classification Accuracy:** **89.00%**
+* **ROC-AUC Score:** **0.9557** (5-Fold Cross-Val: $0.9548 \pm 0.0046$)
+* **Brier Calibration Score:** **0.0766** ($< 0.15$ indicates well-calibrated probabilities)
+* **Log-Loss:** **0.2525**
+
+### 2. Feature Engineering & Domain Invariants
+* **Pressure Index ($PI$):** Non-linear resource depletion metric: $PI = \frac{\text{Required Run Rate}}{\text{Wickets in Hand} + 1}$.
+* **Invariant Guards:** Automatically enforces $100\%$ on target reached and $0\%$ on all-out or delivery exhaustion.
+
+### 3. CLI In-Play Prediction
+```bash
+python src/main.py predict-win-prob --runs 99 --wickets 3 --overs 6.6 --target 215 --batting "Chennai Super Kings" --bowling "Gujarat Titans"
+```
+
+Interactive exploration is available in [`notebooks/01_inplay_win_probability_modeling.ipynb`](file:///d:/Godrej_RealTime_Dashboard/notebooks/01_inplay_win_probability_modeling.ipynb). Detailed equations and feature weights are documented in [`docs/data-science-modeling.md`](file:///d:/Godrej_RealTime_Dashboard/docs/data-science-modeling.md).
 
 ---
 
