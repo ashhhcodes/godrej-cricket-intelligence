@@ -25,7 +25,7 @@ An enterprise-grade, real-time cricket analytics platform that integrates a **Py
 
 ---
 
-## 🚀 Teammate Quickstart Guide (5 Minutes Setup)
+## 🚀 Quickstart Guide (5 Minutes Setup)
 
 Follow these steps to run the project on your machine from where we left off.
 
@@ -113,10 +113,9 @@ Keep Power BI Desktop and PowerShell open side-by-side. Every 30 seconds, a new 
 ├── .env.example                       # Safe environment configuration template
 ├── .gitignore                         # Excludes secrets, logs, and temp files
 ├── requirements.txt                   # Production Python dependencies
-├── Godrej_Cricket_Intelligence.pbix   # Power BI Desktop report with Page 1 Live Scoreboard
+├── Godrej_Cricket_Intelligence.pbix   # Power BI 5-page DirectQuery broadcast dashboard
 ├── docs/
-│   ├── TEAM_HANDOVER.md               # Detailed handover briefing for teammates
-│   ├── ui-theme-customization-guide.md# Guide for assembling Pages 2–5 with custom backgrounds
+│   ├── ui-theme-customization-guide.md# Guide for assembling Pages 1–5 with custom backgrounds
 │   ├── phase-1-architecture.md        # Comprehensive architecture & API budget document
 │   ├── implementation-roadmap.md      # Multi-phase project delivery roadmap
 │   ├── database-setup.md              # PostgreSQL installation and configuration guide
@@ -152,16 +151,15 @@ Keep Power BI Desktop and PowerShell open side-by-side. Every 30 seconds, a new 
 
 ---
 
-## 🎯 Next Steps for Your Teammate
+## 📊 Dashboard Architecture & Pages
 
-1. **Explore the Existing Dashboard:** Open `Godrej_Cricket_Intelligence.pbix` and test live simulation with `python src/main.py replay`.
-2. **(Optional) Add Bonus Pages:**
-   * Use [`docs/ui-theme-customization-guide.md`](file:///d:/Godrej_RealTime_Dashboard/docs/ui-theme-customization-guide.md) to add:
-     * **Page 2: Batting Analytics** (using `03_Batting_Background.png`)
-     * **Page 3: Bowling Spell Efficiency** (using `04_Bowling_Background.png`)
-     * **Page 4: Innings Progression** (using `05_Innings_Background.png`)
-     * **Page 5: Home Portal** (using `01_Home_Background.png`)
-3. **Prepare Presentation Slides:** Summarize the architecture from [`docs/phase-1-architecture.md`](file:///d:/Godrej_RealTime_Dashboard/docs/phase-1-architecture.md) for the college viva/demo.
+The Power BI report (`Godrej_Cricket_Intelligence.pbix`) features a custom dark stadium floodlight theme with 5 dedicated analytics pages:
+
+1. **Home Navigation Portal:** Direct one-click access across all tournament intelligence pages.
+2. **Live Match Center:** Real-time scoreboard headline, live match KPIs (Score, CRR, RRR, Target), in-play batting & bowling scorecards, and live over progression.
+3. **Batting Analytics:** Deep-dive batting statistics, Top Run Scorers, Strike Rate rankings, Boundary percentage vs Strike Rate scatter analysis, and Dismissal breakdowns.
+4. **Bowling Analytics:** Economy Rate vs Bowling Average efficiency matrix, Dot balls by bowler, Wickets & Runs conceded, and bowling spell breakdowns.
+5. **Innings Progression:** Cumulative run progression worm chart (comparing both innings), over-by-over run rate analysis, extras breakdown, and wickets progression.
 
 ---
 
